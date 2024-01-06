@@ -1,0 +1,1500 @@
+[{
+    "question_id": 1,
+    "question": "How many different drawings in total are there on the wall?",
+    "question_type": "Joint Counting",
+    "image_group": 1,
+    "huaman_answer": "2",
+    "gpt-short-ans": "1.",
+	"correctness": 0,
+    "gpt-long-ans": "There is one visible drawing on the wall in the bedroom, and no other drawings can be seen on the walls in the other images of the scene."
+},
+{
+    "question_id": 2,
+    "question": "Is the floor lamp beside the bed and the light grey sofa by the same wall that extends between the bedroom and living room?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 1,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The floor lamp beside the bed is located near the corner adjacent to the window-side wall of the bedroom, while the light grey sofa is positioned against the extending wall between the bedroom and living room, so they are by different walls."
+},
+{
+    "question_id": 3,
+    "question": "Are the photo frame on the dark cabinet in the bedroom and the light grey sofa in the living room both by the same wall that extends between the two rooms?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 1,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The photo frame on the dark cabinet in the bedroom is by the wall adjacent to the doorway leading to the living room, whereas the light grey sofa in the living room is placed against the opposite wall, so they are not by the same wall."
+},
+{
+    "question_id": 4,
+    "question": "Is the tissue box beside the bed by the same wall as photo frame on the dark cabinet?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 1,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The tissue box beside the bed is on a small white stand by the wall adjacent to the bed, whereas the photo frame on the dark cabinet is on a different wall that is perpendicular to the wall where the tissue box is located."
+},
+{
+    "question_id": 5,
+    "question": "Are the photo frame on the dark cabinet in the bedroom and the drawing above the light grey sofa in the living room both by the same wall that extends between the two rooms?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 1,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The photo frame on the dark cabinet in the bedroom is on the wall opposite the doorway that leads to the living room, whereas the drawing above the light grey sofa in the living room is on the wall adjacent to the same doorway, so they are not by the same wall."
+},
+{
+    "question_id": 6,
+    "question": "Is the TV on the same side or on the opposite side to the desktop in the room?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 2,
+    "huaman_answer": "Opposite side.",
+    "gpt-short-ans": "There is no TV visible in the images.",
+	"correctness": 0,
+    "gpt-long-ans": "The provided images do not show a TV, therefore it cannot be determined if there is a TV and, if there is, on which side relative to the desktop it is located."
+},
+{
+    "question_id": 7,
+    "question": "Is the window on the right side or left side of the computer table when facing the computer?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 2,
+    "huaman_answer": "Right side.",
+    "gpt-short-ans": "Right side.",
+	"correctness": 1,
+    "gpt-long-ans": "When facing the computer, as seen in the first image, the window is visible on the right side of the computer table."
+},
+{
+    "question_id": 8,
+    "question": "Is there a small blue chair in the front area of the TV?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 2,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The small blue chair is not located in the front area of the TV; it is instead positioned to the side of the room, away from the TV which is not visible in the images."
+},
+{
+    "question_id": 9,
+    "question": "Is the white trashbox near the computer table on the left side or the right side of the foosball table when facing away from the TV?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 2,
+    "huaman_answer": "left.",
+    "gpt-short-ans": "Left side.",
+	"correctness": 1,
+    "gpt-long-ans": "When facing away from the TV, the white trashbox is visible on the left side of the foosball table as seen in the first and second images."
+},
+{
+    "question_id": 10,
+    "question": "How many chairs are there in the room in total?",
+    "question_type": "Joint Counting",
+    "image_group": 2,
+    "huaman_answer": "4.",
+    "gpt-short-ans": "4.",
+	"correctness": 1,
+    "gpt-long-ans": "There are four chairs visible in the first image around the dining table, and no additional chairs are seen in the other images of the room."
+},
+{
+    "question_id": 11,
+    "question": "How many windows are there in the room?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 3,
+    "huaman_answer": "2.",
+    "gpt-short-ans": "2.",
+	"correctness": 1,
+    "gpt-long-ans": "Both views showing the walls perpendicular to the headboard and footboard of the bed reveal a window each, totaling two windows in the room."
+},
+{
+    "question_id": 12,
+    "question": "Which side are the white chairs on when facing the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 3,
+    "huaman_answer": "Left side.",
+    "gpt-short-ans": "Left side.",
+	"correctness": 1,
+    "gpt-long-ans": "When facing the bed, the white chairs can be seen on the left side, as evident from the orientation of the pictures and the consistent placement of the multicolored alphabet floor mat in relation to the bed."
+},
+{
+    "question_id": 13,
+    "question": "Is the decorative drawing opposite to the bookshelf?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 3,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The decorative drawing is on the same wall as the window and is perpendicular to the wall with the bookshelf as seen in the images."
+},
+{
+    "question_id": 14,
+    "question": "How many table lamps beside the bed?",
+    "question_type": "Joint Counting",
+    "image_group": 3,
+    "huaman_answer": "2.",
+    "gpt-short-ans": "2.",
+	"correctness": 1,
+    "gpt-long-ans": "There is one table lamp visible in the first image on one side of the bed and another table lamp visible on the opposite side of the bed in the fourth image."
+},
+{
+    "question_id": 15,
+    "question": "Which side are the dolls on when sitting on the chair?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 3,
+    "huaman_answer": "Left.",
+    "gpt-short-ans": "Right.",
+	"correctness": 0,
+    "gpt-long-ans": "When sitting on the chair, the dolls are on the right side as shown in the images, with the perspective of someone sitting down."
+},
+{
+    "question_id": 16,
+    "question": "How many chairs are there in the living room and kitchen in total?",
+    "question_type": "Joint Counting",
+    "image_group": 4,
+    "huaman_answer": "9",
+    "gpt-short-ans": "4.",
+	"correctness": 0,
+    "gpt-long-ans": "All four images show the same dining set with four chairs, indicating that there are a total of four chairs in the living room and kitchen area."
+},
+{
+    "question_id": 17,
+    "question": "Is the window in the kitchen opposite to the framed picture hanging above the dining table?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 4,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The window in the kitchen is along the same wall where the framed picture is hung above the dining table, visible in the background in the third image, hence they are not opposite each other."
+},
+{
+    "question_id": 18,
+    "question": "Does the cupboard in the living room have a similar color to the cupboard in the kitchen?",
+    "question_type": "Object Comparison",
+    "image_group": 4,
+    "huaman_answer": "Yes",
+    "gpt-short-ans": "Yes.",
+	"correctness": 1,
+    "gpt-long-ans": "The cupboard in the living room appears to have a similar wood tone to the cupboard in the kitchen, suggesting they are of similar color."
+},
+{
+    "question_id": 19,
+    "question": "Are all the chairs in the living room and the kitchen of the same kind?",
+    "question_type": "Object Comparison",
+    "image_group": 4,
+    "huaman_answer": "Yes",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The chairs in the living room appear to have a different design, with visible horizontal slats on the back, compared to the chairs in the kitchen that have vertical slats, indicating they are of different kinds."
+},
+{
+    "question_id": 20,
+    "question": "How many chairs in living room are facing in the same direction as the chairs in the kitchen?",
+    "question_type": "Spatial Reasoning + Counting",
+    "image_group": 4,
+    "huaman_answer": "1",
+    "gpt-short-ans": "5.",
+	"correctness": 0,
+    "gpt-long-ans": "Four chairs around the dining table are angled similarly as the single chair in the kitchen, making a total of five chairs facing in the same direction."
+},
+{
+    "question_id": 21,
+    "question": "How many windows are there in the room in total?",
+    "question_type": "Joint Counting",
+    "image_group": 5,
+    "huaman_answer": "3",
+    "gpt-short-ans": "2.",
+	"correctness": 0,
+    "gpt-long-ans": "There are two visible windows in the room, one on each of the adjacent walls as can be seen from multiple angles in the provided images."
+},
+{
+    "question_id": 22,
+    "question": "Is there a window opposite to the bookshelf?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 5,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "Yes.",
+	"correctness": 0,
+    "gpt-long-ans": "The images show that the bookshelf is against a wall with no window, and on the opposite side of the room, there is a window, indicating that there is indeed a window opposite to the bookshelf."
+},
+{
+    "question_id": 23,
+    "question": "Is the TV opposite to the bookshelf?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 5,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The TV is positioned adjacent to the wall with the bookshelf, not opposite to it, as seen by the orientation of the objects in the room throughout the different images."
+},
+{
+    "question_id": 24,
+    "question": "Is the TV in front of the white cane chair?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 5,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The white cane chair is facing towards the interior of the room and the view of the TV is not visible in any of the images, indicating that the TV is not in front of the white cane chair."
+},
+{
+    "question_id": 25,
+    "question": "Does it have more cardboard boxes near the bed or near the bookshelf?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 5,
+    "huaman_answer": "Near the bookshelf.",
+    "gpt-short-ans": "More near the bookshelf.",
+	"correctness": 1,
+    "gpt-long-ans": "There are at least four cardboard boxes near the bookshelf as seen in the images, whereas there are only two near the bed."
+},
+{
+    "question_id": 26,
+    "question": "How many doors are there in this room?",
+    "question_type": "Joint Counting",
+    "image_group": 6,
+    "huaman_answer": "2",
+    "gpt-short-ans": "2.",
+	"correctness": 1,
+    "gpt-long-ans": "There are two visible doors in the room: one is open and is located on the wall with the foosball table and children's art, and the other is closed and is located to the right of the bookshelf and entertainment unit."
+},
+{
+    "question_id": 27,
+    "question": "Is the TV placed in front of the sofa or at the leftside of the sofa?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 6,
+    "huaman_answer": "In front of.",
+    "gpt-short-ans": "Left side of the sofa.",
+	"correctness": 0,
+    "gpt-long-ans": "From the perspective of the images, the TV is situated in a built-in cabinet to the left of the sofa, not directly in front of it."
+},
+{
+    "question_id": 28,
+    "question": "Is the desk near the foosball table of the same color as the TV bench?",
+    "question_type": "Object Comparison",
+    "image_group": 6,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The desk appears to have a light color, seen in the image with the foosball table, whereas the TV bench is white, as shown in the images featuring the TV."
+},
+{
+    "question_id": 29,
+    "question": "Are the doors on the same side of the room?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 6,
+    "huaman_answer": "No",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The door visible in the third and fifth images is on a different wall than the door seen in the second image, indicating they are on different sides of the room."
+},
+{
+    "question_id": 30,
+    "question": "Is the toy table closer to the sofa or to the foosball table?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 6,
+    "huaman_answer": "Sofa.",
+    "gpt-short-ans": "Closer to the sofa.",
+	"correctness": 1,
+    "gpt-long-ans": "The toy table is visible near the door away from the foosball table in one image and closer to the sofa in another, indicating that it is closer to the sofa than to the foosball table."
+},
+{
+    "question_id": 31,
+    "question": "How many sofas are there in the living room?",
+    "question_type": "Joint Counting",
+    "image_group": 7,
+    "huaman_answer": "3",
+    "gpt-short-ans": "2.",
+	"correctness": 0,
+    "gpt-long-ans": "There are two sofas in the living room, one with a single visible seat cushion and another with two visible seat cushions."
+},
+{
+    "question_id": 32,
+    "question": "How many doorless passages are there in the living room?",
+    "question_type": "Joint Counting",
+    "image_group": 7,
+    "huaman_answer": "2",
+    "gpt-short-ans": "1.",
+	"correctness": 0,
+    "gpt-long-ans": "There is one doorless passage visible in the living room, which can be seen in the fourth image leading to another part of the house."
+},
+{
+    "question_id": 33,
+    "question": "How many tables in the living room?",
+    "question_type": "Joint Counting",
+    "image_group": 7,
+    "huaman_answer": "3",
+    "gpt-short-ans": "2.",
+	"correctness": 0,
+    "gpt-long-ans": "There is one coffee table in the center of the living room and one smaller side table placed between the two couches."
+},
+{
+    "question_id": 34,
+    "question": "How many sofas face the staircase?",
+    "question_type": "Joint Counting",
+    "image_group": 7,
+    "huaman_answer": "2",
+    "gpt-short-ans": "1.",
+	"correctness": 0,
+    "gpt-long-ans": "From the perspective of the images, particularly the last one, it is evident that only one sofa is positioned to face the direction of the staircase."
+},
+{
+    "question_id": 35,
+    "question": "Are the two passages in the living room located on the opposite side of each other?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 7,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The passages in the living room are not on opposite sides of each other; one passage is located on the wall adjacent to the stairs, while the other is on a perpendicular wall near the corner of the room."
+},
+{
+    "question_id": 36,
+    "question": "Is the television facing the fireplace?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 8,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The television is placed perpendicular to the fireplace, facing towards the couch instead."
+},
+{
+    "question_id": 37,
+    "question": "How many red pillows are there on the sofa and chair in total?",
+    "question_type": "Joint Counting",
+    "image_group": 8,
+    "huaman_answer": "5.",
+    "gpt-short-ans": "2.",
+	"correctness": 0,
+    "gpt-long-ans": "There are two red pillows visible, both located on the sofa, and none are seen on the chair."
+},
+{
+    "question_id": 38,
+    "question": "Is the wooden chair in front of the TV?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 8,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The wooden chair is located across the room near the fireplace, not in front of the television, as seen in the third image."
+},
+{
+    "question_id": 39,
+    "question": "How many lamps are there in the room?",
+    "question_type": "Joint Counting",
+    "image_group": 8,
+    "huaman_answer": "3.",
+    "gpt-short-ans": "2.",
+	"correctness": 0,
+    "gpt-long-ans": "There is one lamp visible next to a couch in one view, and a second lamp can be seen on a desk in another view."
+},
+{
+    "question_id": 40,
+    "question": "Is the bookshelf facing the window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 8,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The bookshelf is positioned against a wall perpendicular to the windows, as seen in the various angles provided."
+},
+{
+    "question_id": 41,
+    "question": "Where is the bicycle in relation to the sofa?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 9,
+    "huaman_answer": "Left side.",
+    "gpt-short-ans": "Not visible from the sofa.",
+	"correctness": 0,
+    "gpt-long-ans": "The bicycle is positioned against a brick wall in a separate area not visible from the sofa, as no images show both the sofa and the bicycle within the same frame."
+},
+{
+    "question_id": 42,
+    "question": "Is the bicyle closer to the sofa or to the electric fan?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 9,
+    "huaman_answer": "Sofa.",
+    "gpt-short-ans": "Closer to the electric fan.",
+	"correctness": 0,
+    "gpt-long-ans": "The bicycle is positioned in close proximity to the electric fan in the living space, while the sofa is situated in a separate area further away from the bicycle's location."
+},
+{
+    "question_id": 43,
+    "question": "Is the small bookshelf behind the sofa facing the wall with bicycles?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 9,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The small bookshelf is not behind the sofa; it is located adjacent to the desk and facing the same wall as the sofa, which is perpendicular to the wall with bicycles."
+},
+{
+    "question_id": 44,
+    "question": "Is the computer at the left side or the right side of the small bookshelf when facing the bookshelf?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 9,
+    "huaman_answer": "Left side.",
+    "gpt-short-ans": "Right side.",
+	"correctness": 0,
+    "gpt-long-ans": "When facing the bookshelf, the computer is situated on the right side, as seen in the images showing both the desk with the computer and the bookshelf in their respective positions relative to one another."
+},
+{
+    "question_id": 45,
+    "question": "Do the wall with bicycles and the wall on the opposite have the same texture?",
+    "question_type": "Object Comparison",
+    "image_group": 9,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The wall with the bicycles is a brick wall, visible in the first and third images, while the opposite wall, seen in the second and fifth images, appears to be painted or plastered and is smooth, indicating different textures."
+},
+{
+    "question_id": 46,
+    "question": "Is the TV facing the window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 10,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The TV is mounted on a wall perpendicular to the windows, not facing them directly as shown in the images."
+},
+{
+    "question_id": 47,
+    "question": "Is the shelf closer to the table tennis table or to the wooden table?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 10,
+    "huaman_answer": "Table tennis table.",
+    "gpt-short-ans": "The shelf is closer to the wooden table.",
+	"correctness": 0,
+    "gpt-long-ans": "The images show that the shelf with the TV on it is adjacent to the wall near the wooden table, while the table tennis table is located further away in a different area of the room."
+},
+{
+    "question_id": 48,
+    "question": "Is the shelf on the left side or the right side when facing the TV?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 10,
+    "huaman_answer": "Left side.",
+    "gpt-short-ans": "Left side.",
+	"correctness": 1,
+    "gpt-long-ans": "When facing the TV, the shelf holding various items is placed on the left side as evidenced by the perspective shown in the images where the TV and shelf are visible together."
+},
+{
+    "question_id": 49,
+    "question": "Is the door on the opposite side of the shelf?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 10,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The door is visible in the last image on the right side while the shelf is against the wall to the left side in the second image, indicating they are on adjacent walls rather than opposite ones."
+},
+{
+    "question_id": 50,
+    "question": "Is the table below the TV on the opposite side of the window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 10,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "Yes.",
+	"correctness": 1,
+    "gpt-long-ans": "The first and second images show the location of the window opposite to the area with the ping-pong table, and the third and fourth images clearly display the TV and the table against the wall that is on the opposite side of the room from the window."
+},
+{
+    "question_id": 51,
+    "question": "How many chairs are there in total?",
+    "question_type": "Joint Counting",
+    "image_group": 11,
+    "huaman_answer": "14",
+    "gpt-short-ans": "16.",
+	"correctness": 0,
+    "gpt-long-ans": "There are four chairs around the dining table and four bar stools at the kitchen island; counting the chairs and stools in all images reveals a total of 16 chairs."
+},
+{
+    "question_id": 52,
+    "question": "Is the white door in the kitchen facing towards the window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 11,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The white door in the kitchen is perpendicular to the window, as seen in one of the images where the door is shown on the left side and the window is on the far wall facing the exterior."
+},
+{
+    "question_id": 53,
+    "question": "Is the mircrowave placed on the same kitchen counter as the gas stove?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 11,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "Yes.",
+	"correctness": 0,
+    "gpt-long-ans": "The microwave is placed on the same kitchen counter as the gas stove, as seen in the images where the stove and the microwave are both visible on the same long stretch of countertop with cabinets above and below."
+},
+{
+    "question_id": 54,
+    "question": "Is the sink on the opposite side of the gas stove?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 11,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The sink and the gas stove both appear to be located along the same wall or counter space, with the sink visible next to the dishwasher and the stove visible further down the same stretch of countertop in another image."
+},
+{
+    "question_id": 55,
+    "question": "Is the TV on the wall in the living room on the opposite side of the gas stove?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 11,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The TV in the living room is on the same wall as the gas stove but in an adjacent room, as seen through the archway in the images, they are not on opposite sides."
+},
+{
+    "question_id": 56,
+    "question": "Is the refrigerator facing the window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 12,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The refrigerator is perpendicular to the window as seen from the images, with its side facing the direction of the window, not the front."
+},
+{
+    "question_id": 57,
+    "question": "Is there an induction cooker near the refrigerator?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 12,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The cooking area near the refrigerator includes a cooktop with gas burners and a grill separate from an induction cooker."
+},
+{
+    "question_id": 58,
+    "question": "How many sink basins are there in the kitchen?",
+    "question_type": "Joint Counting",
+    "image_group": 12,
+    "huaman_answer": "3",
+    "gpt-short-ans": "2.",
+	"correctness": 0,
+    "gpt-long-ans": "Two separate sink basins are visible in the images of the kitchen countertops."
+},
+{
+    "question_id": 59,
+    "question": "Is the kitchen door facing the window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 12,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The kitchen window is located on a wall with cabinets and the sink, and in the third image, the open door is shown not facing the window, indicating it is on a different wall."
+},
+{
+    "question_id": 60,
+    "question": "Are the dish sterilizer and oven facing towards each other?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 12,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The oven is located along one wall and the dish sterilizer is built into the cabinetry perpendicular to the oven, so they are not facing each other."
+},
+{
+    "question_id": 61,
+    "question": "Is the gas stove opposite to any window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 13,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The gas stove is positioned along the same wall as a window, as seen in the third image, not opposite to it."
+},
+{
+    "question_id": 62,
+    "question": "Is the door facing any window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 13,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "Yes.",
+	"correctness": 0,
+    "gpt-long-ans": "The door is directly aligned with the window above the kitchen sink, as seen in the second image."
+},
+{
+    "question_id": 63,
+    "question": "How many chairs are facing towards the door?",
+    "question_type": "Spatial Reasoning + Counting",
+    "image_group": 13,
+    "huaman_answer": "2.",
+    "gpt-short-ans": "4.",
+	"correctness": 0,
+    "gpt-long-ans": "There are four chairs visible in the first image, all of which are arranged around the table in a way that they face towards the door shown in the second image."
+},
+{
+    "question_id": 64,
+    "question": "Is the sink opposite to the refrigerator?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 13,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The sink and the refrigerator are positioned on adjacent walls rather than directly opposite each other; this is discernible by the orientation of the countertops and appliances in relation to each other in the images."
+},
+{
+    "question_id": 65,
+    "question": "Is the refrigerator facing any window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 13,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The refrigerator is in a position perpendicular to the window as seen in the second image and no window is directly in front of it."
+},
+{
+    "question_id": 66,
+    "question": "Is the electric kettle placed on the same table as the electric cooker?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 14,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The electric kettle is on the stove while the electric cooker is on the kitchen counter, hence they are not on the same table."
+},
+{
+    "question_id": 67,
+    "question": "Is the refrigerator facing the TV?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 14,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The refrigerator is positioned perpendicular to the TV which is visible across the room in the second photo, indicating that the refrigerator is not facing the TV."
+},
+{
+    "question_id": 68,
+    "question": "Is the microwave facing towards the window blind?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 14,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The microwave is positioned perpendicular to the window blind, as seen in the images, making it face towards the interior of the kitchen area rather than directly towards the window blind."
+},
+{
+    "question_id": 69,
+    "question": "Is the living room on the right side or left side of the refrigerator when facing the refrigerator?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 14,
+    "huaman_answer": "right side.",
+    "gpt-short-ans": "Left side.",
+	"correctness": 0,
+    "gpt-long-ans": "When facing the refrigerator, the living room can be seen on the left side in the third and fourth images, indicating that the living room is to the left of the refrigerator."
+},
+{
+    "question_id": 70,
+    "question": "Is the refrigerator closer to the electric kettle or the electric cooker?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 14,
+    "huaman_answer": "Electric cooker.",
+    "gpt-short-ans": "Electric cooker.",
+	"correctness": 1,
+    "gpt-long-ans": "The refrigerator is directly adjacent to the electric cooker on the counter in the first image, whereas the electric kettle is on a separate counter that is farther away from the refrigerator as seen in the fourth image."
+},
+{
+    "question_id": 71,
+    "question": "Is the white door next to the black oven facing any window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 15,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The white door next to the black oven is located on a wall without windows, as seen in the images provided."
+},
+{
+    "question_id": 72,
+    "question": "How many sink basins in total are there in the kitchen?",
+    "question_type": "Joint Counting",
+    "image_group": 15,
+    "huaman_answer": "4.",
+    "gpt-short-ans": "1.",
+	"correctness": 0,
+    "gpt-long-ans": "There is one sink basin visible in the images provided, located near the faucet on the kitchen counter."
+},
+{
+    "question_id": 73,
+    "question": "Is there any window on the left side if the mircrowave oven when facing the mircrowave oven?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 15,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "In all of the images provided, there are no windows visible on the left side of the microwave oven; instead, cabinetry and appliances such as a refrigerator and oven are observed in that area."
+},
+{
+    "question_id": 74,
+    "question": "How many doorless passage are there in the kitchen?",
+    "question_type": "Joint Counting",
+    "image_group": 15,
+    "huaman_answer": "2.",
+    "gpt-short-ans": "1.",
+	"correctness": 0,
+    "gpt-long-ans": "There is only one doorless passage visible in the kitchen, located at the end opposite to the kitchen counters, as seen in the second and third images."
+},
+{
+    "question_id": 75,
+    "question": "Is there a doorless passage on the left side of the black oven when facing the oven?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 15,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "Yes.",
+	"correctness": 1,
+    "gpt-long-ans": "The images show a continuous space without doors on the left side of the black oven when facing it, indicating a doorless passage in that area."
+},
+{
+    "question_id": 76,
+    "question": "How many chairs around the table in the kitchen?",
+    "question_type": "Joint Counting",
+    "image_group": 16,
+    "huaman_answer": "4.",
+    "gpt-short-ans": "4.",
+	"correctness": 1,
+    "gpt-long-ans": "There are four chairs visible around the kitchen island in the images provided."
+},
+{
+    "question_id": 77,
+    "question": "How many small microwave oven are there in the kitchen?",
+    "question_type": "Joint Counting",
+    "image_group": 16,
+    "huaman_answer": "2",
+    "gpt-short-ans": "1.",
+	"correctness": 0,
+    "gpt-long-ans": "There is a small microwave oven visible on the kitchen counter in the third and fourth images, indicating there is just one small microwave oven in the kitchen."
+},
+{
+    "question_id": 78,
+    "question": "Is the electric kettle closer to the bookshelf or to the refrigerator?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 16,
+    "huaman_answer": "bookshelf.",
+    "gpt-short-ans": "Closer to the refrigerator.",
+	"correctness": 0,
+    "gpt-long-ans": "The electric kettle is positioned on the kitchen counter which is adjacent to the refrigerator, as seen particularly in the last image, while the bookshelf is on the opposite wall, farther away from the kettle."
+},
+{
+    "question_id": 79,
+    "question": "Is the refrigerator facing the bookshelf?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 16,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The refrigerator is positioned facing the kitchen entrance and side of the dining area, while the bookshelf is located on a perpendicular wall adjacent to the refrigerator, therefore they do not face each other."
+},
+{
+    "question_id": 80,
+    "question": "Is the small monitor near the sink facing the bookshelf?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 16,
+    "huaman_answer": "No,",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The small monitor near the sink is facing away from the bookshelf towards the rest of the kitchen space, which can be seen in the third and fourth images where the monitor's position relative to the sink and the bookshelf is visible."
+},
+{
+    "question_id": 81,
+    "question": "Is the door facing the window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 17,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The door is seen in the first image and the window is visible in the third and fourth images, showing that the door and the window are on perpendicular walls rather than facing each other."
+},
+{
+    "question_id": 82,
+    "question": "Is the TV in front of the oven?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 17,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The TV is on the countertop across from the dining area, while the oven is not visible when facing the TV from that angle, indicating they are on different walls or sections of the kitchen."
+},
+{
+    "question_id": 83,
+    "question": "How many chairs around the table?",
+    "question_type": "Joint Counting",
+    "image_group": 17,
+    "huaman_answer": "4",
+    "gpt-short-ans": "4.",
+	"correctness": 1,
+    "gpt-long-ans": "There are four chairs positioned around the table, visible from different angles in the images provided."
+},
+{
+    "question_id": 84,
+    "question": "Is the white microwave oven placed on the same side as the TV?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 17,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "Yes.",
+	"correctness": 0,
+    "gpt-long-ans": "The white microwave is seen placed on the countertop in the kitchen, and the TV is visible from different angles on the same countertop, indicating they are on the same side."
+},
+{
+    "question_id": 85,
+    "question": "Is there a window in front of the the oven?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 17,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The oven is located along a wall that does not have a window, as can be seen from the reflection in the oven's glass and the lack of daylight on that wall. The only window visible is by the dining area, across from the oven."
+},
+{
+    "question_id": 86,
+    "question": "Is the round dinner table on the left side or right side of the refrigerator when facing the refrigerator?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 18,
+    "huaman_answer": "Left side.",
+    "gpt-short-ans": "Left side.",
+	"correctness": 1,
+    "gpt-long-ans": "When facing the refrigerator, the round dinner table is visible in the first image to the left of the refrigerator, indicating its position relative to the refrigerator."
+},
+{
+    "question_id": 87,
+    "question": "How many chairs in total in the kitchen?",
+    "question_type": "Joint Counting",
+    "image_group": 18,
+    "huaman_answer": "8.",
+    "gpt-short-ans": "6.",
+	"correctness": 0,
+    "gpt-long-ans": "There are four chairs visible around the dining table in the first image and two additional chairs, one in the second image next to the kitchen counter and another in the third image by the island, making a total of six chairs in the kitchen area."
+},
+{
+    "question_id": 88,
+    "question": "Is the window on the left side or right side of the refrigerator when facing the refrigerator?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 18,
+    "huaman_answer": "Left side.",
+    "gpt-short-ans": "Left side.",
+	"correctness": 1,
+    "gpt-long-ans": "When facing the refrigerator, the window is visible on the left side, as seen in the first image showing the dining area and windows adjacent to the refrigerator location."
+},
+{
+    "question_id": 89,
+    "question": "Is the white cupboard near the sink is on the left side or right side of the oven when facing the oven?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 18,
+    "huaman_answer": "Right side.",
+    "gpt-short-ans": "Right side.",
+	"correctness": 1,
+    "gpt-long-ans": "When facing the oven, the white cupboard is seen on the right side in the images provided."
+},
+{
+    "question_id": 90,
+    "question": "How many different sinks are there in the kitchen?",
+    "question_type": "Joint Counting",
+    "image_group": 18,
+    "huaman_answer": "2.",
+    "gpt-short-ans": "1.",
+	"correctness": 0,
+    "gpt-long-ans": "There is only one sink visible in the images provided, consistently seen from different angles in the kitchen."
+},
+{
+    "question_id": 91,
+    "question": "How many chairs in total are there in the scene?",
+    "question_type": "Joint Counting",
+    "image_group": 19,
+    "huaman_answer": "5.",
+    "gpt-short-ans": "5.",
+	"correctness": 1,
+    "gpt-long-ans": "There are four chairs visible around the glass dining table in the first image and one chair visible adjacent to the kitchen island in the third image, totaling five chairs in the scene."
+},
+{
+    "question_id": 92,
+    "question": "Is the sink on the right side of the induction cooker?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 19,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The sink is located on the island counter in the center of the kitchen space, separate from the induction cooker which is situated against the wall, so the sink is not on the right side of the induction cooker."
+},
+{
+    "question_id": 93,
+    "question": "How many different drawings are there in the room?",
+    "question_type": "Joint Counting",
+    "image_group": 19,
+    "huaman_answer": "2.",
+    "gpt-short-ans": "2.",
+	"correctness": 1,
+    "gpt-long-ans": "There is one drawing with yellow flowers above the dining table and another drawing is visible on the wall across from the kitchen countertop, so there are 2 different drawings in the room."
+},
+{
+    "question_id": 94,
+    "question": "The dog is at the left side or the right side of the refrigerator when facing the refrigerator?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 19,
+    "huaman_answer": "Left.",
+    "gpt-short-ans": "Left side.",
+	"correctness": 1,
+    "gpt-long-ans": "When facing the refrigerator from the perspective of someone entering the kitchen, the dog is seen lying on the floor to the left side of the refrigerator as shown in the first image."
+},
+{
+    "question_id": 95,
+    "question": "Is drawing hung above the dinner table facing the kitchen window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 19,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "Yes.",
+	"correctness": 0,
+    "gpt-long-ans": "The drawing is positioned on the wall above the dinner table and in the direct line of sight from the kitchen window, as seen in the series of images."
+},
+{
+    "question_id": 96,
+    "question": "Is the chair facing the TV?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 20,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The chair is facing the side of the TV stand, not directly towards the TV, as seen in the second and fourth images."
+},
+{
+    "question_id": 97,
+    "question": "Is the wardrobe in front of the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 20,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The wardrobe is situated against the wall perpendicular to the wall where the headboard and bed are, as seen from the different angles provided."
+},
+{
+    "question_id": 98,
+    "question": "How many drawings are on the bedroom wall?",
+    "question_type": "Joint Counting",
+    "image_group": 20,
+    "huaman_answer": "3.",
+    "gpt-short-ans": "2.",
+	"correctness": 0,
+    "gpt-long-ans": "There is one drawing above the bed in the first image and another on the wall to the left in the third image, making it a total of 2 drawings on the bedroom walls."
+},
+{
+    "question_id": 99,
+    "question": "Is the TV in front of the bed or on the left side of the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 20,
+    "huaman_answer": "In front of.",
+    "gpt-short-ans": "On the left side of the bed.",
+	"correctness": 0,
+    "gpt-long-ans": "The TV is positioned on a stand adjacent to the left wall when looking from the bed, as seen in the last image which shows it to the left of the doorway that leads to the hallway, thus it is not in front of the bed but on the left side."
+},
+{
+    "question_id": 100,
+    "question": "Is the TV facing the bedroom window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 20,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The TV is positioned in a corner away from the window, as evident from the different angles provided in the images showing the TV, the window, and their relative positions in the room."
+},
+{
+    "question_id": 101,
+    "question": "How many different drawings on the bedroom wall?",
+    "question_type": "Joint Counting",
+    "image_group": 21,
+    "huaman_answer": "5",
+    "gpt-short-ans": "2.",
+	"correctness": 0,
+    "gpt-long-ans": "There is one drawing above the bed and another drawing on the wall opposite to the bed, making a total of 2 different drawings visible on the bedroom walls."
+},
+{
+    "question_id": 102,
+    "question": "Is the TV in front of the bed or on the right side of the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 21,
+    "huaman_answer": "In front of.",
+    "gpt-short-ans": "On the right side of the bed.",
+	"correctness": 0,
+    "gpt-long-ans": "From the perspective of someone standing at the foot of the bed and looking towards the headboard, the TV is shown to be on the right-hand side of the bed in the second and fourth images."
+},
+{
+    "question_id": 103,
+    "question": "Is the window on the left side or the right side of the desk lamp?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 21,
+    "huaman_answer": "Right.",
+    "gpt-short-ans": "Left side.",
+	"correctness": 0,
+    "gpt-long-ans": "The window is visible on the left side in the fourth image, where the desk and the desk lamp are also shown, indicating the window is on the left side of the desk lamp."
+},
+{
+    "question_id": 104,
+    "question": "Is the white double door in front of the TV or on the right side of the TV?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 21,
+    "huaman_answer": "Right.",
+    "gpt-short-ans": "On the right side of the TV.",
+	"correctness": 1,
+    "gpt-long-ans": "From the third image, we can observe that the white double door is located to the right of the TV from the perspective of the bed, and there is no door directly in front of the TV."
+},
+{
+    "question_id": 105,
+    "question": "Is the wooden chair closer to the bed or to the bedside desk?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 21,
+    "huaman_answer": "Bed.",
+    "gpt-short-ans": "The wooden chair is closer to the bedside desk.",
+	"correctness": 0,
+    "gpt-long-ans": "In the third image, the wooden chair is directly beside the bedside desk, which is right next to the bed, making it closer to the bedside desk than to the center of the bed as seen in the fourth image."
+},
+{
+    "question_id": 106,
+    "question": "Is the study desk in front of the sofa or on the left side of it?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 22,
+    "huaman_answer": "In front of.",
+    "gpt-short-ans": "On the left side.",
+	"correctness": 0,
+    "gpt-long-ans": "The study desk is positioned to the left of the sofa when looking at the sofa from the front, as seen in the images provided."
+},
+{
+    "question_id": 107,
+    "question": "Is the window on the left side of room or the right side of the room when sitting on the sofa?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 22,
+    "huaman_answer": "Left.",
+    "gpt-short-ans": "The window is on the left side of the room when sitting on the sofa.",
+	"correctness": 1,
+    "gpt-long-ans": "When sitting on the sofa, as seen in the third image, the window is positioned on the left wall relative to the perspective of the person sitting, as confirmed by the orientation of items in the room in all images."
+},
+{
+    "question_id": 108,
+    "question": "Is the bookshelf in front of the bed or on the right side of it?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 22,
+    "huaman_answer": "In front of.",
+    "gpt-short-ans": "On the right side.",
+	"correctness": 0,
+    "gpt-long-ans": "The bookshelf is positioned on the same wall as the head of the bed and to the right side when facing the bed, as seen in the second and fourth images."
+},
+{
+    "question_id": 109,
+    "question": "Does the bedside desk have the same style as the study desk?",
+    "question_type": "Object Comparison",
+    "image_group": 22,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The bedside desk has visible legs and a thinner profile, while the study desk has a solid side with no visible legs and appears to be of a thicker construction."
+},
+{
+    "question_id": 110,
+    "question": "Is the cardboard box beside the bed in front of the sofa or on its left?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 22,
+    "huaman_answer": "On its left.",
+    "gpt-short-ans": "On its left.",
+	"correctness": 1,
+    "gpt-long-ans": "The cardboard box beside the bed is visible in the second image to the left of the bed, and in the third image, you can see the sofa positioned in such a way that the cardboard box would be to the left of it, not in front."
+},
+{
+    "question_id": 111,
+    "question": "Is the plush toy dog on the left side of the TV or the right side of the TV when facing the TV?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 23,
+    "huaman_answer": "Left.",
+    "gpt-short-ans": "Right side.",
+	"correctness": 0,
+    "gpt-long-ans": "When facing the TV, the plush toy dog is on the right side, as shown in the image with the bed where the TV and the dog are both visible."
+},
+{
+    "question_id": 112,
+    "question": "Is the tall cabinet by the wall on the left side or right side of the bed when lying on the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 23,
+    "huaman_answer": "Right.",
+    "gpt-short-ans": "Right side.",
+	"correctness": 1,
+    "gpt-long-ans": "When lying on the bed, the tall cabinet is visible in the image showing the right side of the bed, indicating its position on the right side of the bed."
+},
+{
+    "question_id": 113,
+    "question": "How many drawings and posters in total are hanging on the bedroom wall?",
+    "question_type": "Joint Counting",
+    "image_group": 23,
+    "huaman_answer": "4",
+    "gpt-short-ans": "3.",
+	"correctness": 0,
+    "gpt-long-ans": "There are two small framed drawings or photographs above the bed and one larger floral painting/poster on the wall perpendicular to the bed, totalling three items hanging on the walls of the bedroom."
+},
+{
+    "question_id": 114,
+    "question": "Is the white door next to the TV in front of the tall cabinet?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 23,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The white door next to the TV is seen in the first image without any tall cabinet nearby, while the tall cabinet is visible next to another door in the fourth image, indicating that the white door next to the TV and the tall cabinet are by different walls."
+},
+{
+    "question_id": 115,
+    "question": "How many different doors are there in the bedroom?",
+    "question_type": "Joint Counting",
+    "image_group": 23,
+    "huaman_answer": "2.",
+    "gpt-short-ans": "2.",
+	"correctness": 1,
+    "gpt-long-ans": "There is one door visible in the first and fourth images and another distinct door seen in the third image, leading to two different doors observed in the bedroom."
+},
+{
+    "question_id": 116,
+    "question": "Is the orange bean bag in front of the bed or on its left side?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 24,
+    "huaman_answer": "In front of.",
+    "gpt-short-ans": "On its left side.",
+	"correctness": 0,
+    "gpt-long-ans": "From the perspective of the first image, the orange bean bag is positioned to the left side relative to the bed, not directly in front of it."
+},
+{
+    "question_id": 117,
+    "question": "Is the green folding bed in front of the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 24,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The green folding bed is positioned perpendicular to the main bed and is located closer to the closet, as seen in the fourth and fifth images, which means it is not directly in front of the main bed."
+},
+{
+    "question_id": 118,
+    "question": "Is the bedroom door in front of the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 24,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The bedroom door is not directly in front of the bed; it is off to the side at an angle based on its position in the last two images relative to the bed and the other items in the room."
+},
+{
+    "question_id": 119,
+    "question": "Is there a window in front of the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 24,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The bed is against a wall with no window; the window is located on the wall perpendicular to the head of the bed, as seen in the first and second images."
+},
+{
+    "question_id": 120,
+    "question": "Is the bedroom door next to the green folding bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 24,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The bedroom door is not next to the green folding bed; it is located on a different wall as evidenced by the different perspectives shown in the images. The green folding bed is situated against the wall adjacent to the window, while the bedroom door is seen along the wall across from the bed, in the corner of the room."
+},
+{
+    "question_id": 121,
+    "question": "How many framed drawings are hung above the left and right side of the bed?",
+    "question_type": "Joint Counting",
+    "image_group": 25,
+    "huaman_answer": "4.",
+    "gpt-short-ans": "4.",
+	"correctness": 1,
+    "gpt-long-ans": "There are two framed drawings hung above each side of the bed, totaling four framed drawings in the scene."
+},
+{
+    "question_id": 122,
+    "question": "Is the mirror on the left side or the right side when facing the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 25,
+    "huaman_answer": "Left.",
+    "gpt-short-ans": "Right side.",
+	"correctness": 0,
+    "gpt-long-ans": "When facing the bed, the mirror is positioned on the right side, as seen in the fourth image where it reflects the bed and the right-hand side wall of the bedroom."
+},
+{
+    "question_id": 123,
+    "question": "How many lamps are placed at the bedside?",
+    "question_type": "Joint Counting",
+    "image_group": 25,
+    "huaman_answer": "2.",
+    "gpt-short-ans": "2.",
+	"correctness": 1,
+    "gpt-long-ans": "One lamp is visible at the head of the bed in the first image, and another lamp can be seen at the opposite side of the bed in the second image, making a total of 2 bedside lamps."
+},
+{
+    "question_id": 124,
+    "question": "Is there a decorative drawing in front of the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 25,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "There is no decorative drawing in front of the bed; the wall opposite the bed has a mirror and console table, as seen in the fourth image."
+},
+{
+    "question_id": 125,
+    "question": "Which side is the carpet in relation to the bed when facing the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 25,
+    "huaman_answer": "Left.",
+    "gpt-short-ans": "Left side.",
+	"correctness": 1,
+    "gpt-long-ans": "When facing the bed, the carpet is visible on the left-hand side in the room, as shown in the third image where we see the bed in the background and the carpet to the left in the foreground."
+},
+{
+    "question_id": 126,
+    "question": "How many cabinets are there in the room in total?",
+    "question_type": "Joint Counting",
+    "image_group": 26,
+    "huaman_answer": "3.",
+    "gpt-short-ans": "2.",
+	"correctness": 0,
+    "gpt-long-ans": "There is one cabinet under the bookshelf on the left side of the first image and another taller cabinet on the right side of the third image, making a total of 2 cabinets in the room."
+},
+{
+    "question_id": 127,
+    "question": "How many windows are there in the room in total?",
+    "question_type": "Joint Counting",
+    "image_group": 26,
+    "huaman_answer": "2.",
+    "gpt-short-ans": "1.",
+	"correctness": 0,
+    "gpt-long-ans": "Only one window is visible in the images, and it is covered with a purple blind."
+},
+{
+    "question_id": 128,
+    "question": "Is there a cabinet behind the chair at the desk?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 26,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The images show a chair at the desk, but there is no cabinet behind it; instead, there is a bookshelf directly behind the desk area."
+},
+{
+    "question_id": 129,
+    "question": "Which side is the tall cabinet between the two beds at in relation to the bookshelf?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 26,
+    "huaman_answer": "Left.",
+    "gpt-short-ans": "Left side.",
+	"correctness": 1,
+    "gpt-long-ans": "The tall cabinet between the two beds is positioned to the left side of the bookshelf when facing the bookshelf from the beds' perspective, as shown in the last two images."
+},
+{
+    "question_id": 130,
+    "question": "Is there a window located opposite to the desk (Type: Spatial Reasoning)\n?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 26,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The window is located on the wall to the side of the desk, not opposite to it, as seen in the images where the window is visible with the blinds down and the desk is against the adjacent wall."
+},
+{
+    "question_id": 131,
+    "question": "Is there a wooden desk in front of the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 27,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "Although there appears to be a wooden structure in front of the bed, the images show it is actually a dresser with drawers, not a desk."
+},
+{
+    "question_id": 132,
+    "question": "Is there any cabinet facing the window?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 27,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "None of the cabinets shown in the images face the window directly; they are all perpendicular to the window wall or facing away from it."
+},
+{
+    "question_id": 133,
+    "question": "Which side are the two cabinets by the wall on in relation to the wooden desk?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 27,
+    "huaman_answer": "Right.",
+    "gpt-short-ans": "Right side.",
+	"correctness": 1,
+    "gpt-long-ans": "When looking at the wooden desk, the two cabinets by the wall are situated to the right of it, as observed from the perspective in the fourth image."
+},
+{
+    "question_id": 134,
+    "question": "Are the the two cabinets by the wall and the wooden desk of the same texture?",
+    "question_type": "Object Comparison",
+    "image_group": 27,
+    "huaman_answer": "No.",
+    "gpt-short-ans": "No.",
+	"correctness": 1,
+    "gpt-long-ans": "The two cabinets by the wall have a lighter, possibly laminated finish, while the wooden desk has a darker, wood-grain texture, indicating they are not of the same texture."
+},
+{
+    "question_id": 135,
+    "question": "Is the cane basket in front of the bed or on the side of it?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 27,
+    "huaman_answer": "On the side.",
+    "gpt-short-ans": "On the side of it.",
+	"correctness": 1,
+    "gpt-long-ans": "The cane basket can be seen in the third image, positioned along the side of the bed within the narrower space between the bed and the wall."
+},
+{
+    "question_id": 136,
+    "question": "How many beds are there in the room?",
+    "question_type": "Joint Counting",
+    "image_group": 28,
+    "huaman_answer": "2.",
+    "gpt-short-ans": "1.",
+	"correctness": 0,
+    "gpt-long-ans": "There is only one bed visible in all the provided images, consistently placed in the same position in the room."
+},
+{
+    "question_id": 137,
+    "question": "Is the white wardrobe in front of a bed or on its right side?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 28,
+    "huaman_answer": "In front of.",
+    "gpt-short-ans": "On its right side.",
+	"correctness": 0,
+    "gpt-long-ans": "The white wardrobe is located to the right of the bed when facing the bed, as seen in the images, especially in the third and fourth images which show the wardrobe's relative position clearly."
+},
+{
+    "question_id": 138,
+    "question": "Is there a cabinet facing the beds?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 28,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "There is no cabinet directly facing the beds; the images show dressers situated perpendicular to the bed and a desk that is adjacent to the bed's side rather than facing it."
+},
+{
+    "question_id": 139,
+    "question": "How many posters are hugh above the beds?",
+    "question_type": "Joint Counting",
+    "image_group": 28,
+    "huaman_answer": "2.",
+    "gpt-short-ans": "1.",
+	"correctness": 0,
+    "gpt-long-ans": "There is one poster visible above the bed in the images provided, with musical notes on it."
+},
+{
+    "question_id": 140,
+    "question": "Which bed is the the shelf closer to?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 28,
+    "huaman_answer": "Right side.",
+    "gpt-short-ans": "The shelf is closer to the bed with the blue and green quilt.",
+	"correctness": 1,
+    "gpt-long-ans": "In the images, the shelf is visibly nearer to the bed that has a blue and green quilt on it compared to the bed with the purple sheets, which appears further away from the shelf."
+},
+{
+    "question_id": 141,
+    "question": "Is the painting near the bed opposite to the white wardrobe?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 29,
+    "huaman_answer": "Yes.",
+    "gpt-short-ans": "No.",
+	"correctness": 0,
+    "gpt-long-ans": "The painting near the bed is on the same wall as the white wardrobe; both are visible on the wall across from the bed in the images provided."
+},
+{
+    "question_id": 142,
+    "question": "How many chairs are there in the room?",
+    "question_type": "Joint Counting",
+    "image_group": 29,
+    "huaman_answer": "1.",
+    "gpt-short-ans": "2.",
+	"correctness": 0,
+    "gpt-long-ans": "There is one chair visible near the desk with the computer and another chair at the desk with stationery and books, making a total of 2 chairs in the room."
+},
+{
+    "question_id": 143,
+    "question": "Which side is the plastic bag on in relation to the painting?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 29,
+    "huaman_answer": "Right.",
+    "gpt-short-ans": "Left.",
+	"correctness": 0,
+    "gpt-long-ans": "The plastic bag is visible on the left side of the desk in relation to the painting's position in the second image."
+},
+{
+    "question_id": 144,
+    "question": "Which side is the bedside table on in relation to the mirror?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 29,
+    "huaman_answer": "Right.",
+    "gpt-short-ans": "Left side.",
+	"correctness": 0,
+    "gpt-long-ans": "The bedside table is visible on the left side in the second image, and the mirror is on the opposite wall, as seen in the third image."
+},
+{
+    "question_id": 145,
+    "question": "Which side is the window on in relation to the white wardrobe?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 29,
+    "huaman_answer": "Left.",
+    "gpt-short-ans": "Right.",
+	"correctness": 0,
+    "gpt-long-ans": "The white wardrobe is positioned against a wall and the window is on the adjacent wall to the right of the wardrobe, as seen from the perspective provided in the images."
+},
+{
+    "question_id": 146,
+    "question": "Where is the TV in relation to the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 30,
+    "huaman_answer": "In front of.",
+    "gpt-short-ans": "Opposite the bed.",
+	"correctness": 1,
+    "gpt-long-ans": "The TV is placed on a media console on the wall across from the foot of the bed, facing it."
+},
+{
+    "question_id": 147,
+    "question": "Where is the window in relation to the wooden chair?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 30,
+    "huaman_answer": "In front of.",
+    "gpt-short-ans": "Opposite.",
+	"correctness": 1,
+    "gpt-long-ans": "Based on the images, the wooden chair is placed near a corner of the room, and the window is on the wall opposite the chair."
+},
+{
+    "question_id": 148,
+    "question": "Are the doors on the left side or right side or both side of the bed?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 30,
+    "huaman_answer": "Both side.",
+    "gpt-short-ans": "Both sides.",
+	"correctness": 1,
+    "gpt-long-ans": "One door is located on the left side of the bed as seen in the first and fourth images, and another door is on the right side of the bed as visible in the second and third images."
+},
+{
+    "question_id": 149,
+    "question": "Where is the wooden chair in relation to the TV if facing the TV?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 30,
+    "huaman_answer": "Right side.",
+    "gpt-short-ans": "Right side.",
+	"correctness": 1,
+    "gpt-long-ans": "When facing the TV, the wooden chair is located to the right side of the room as seen in the images provided."
+},
+{
+    "question_id": 150,
+    "question": "Is the sofa on the front left of or the front right of the wooden chair?",
+    "question_type": "Spatial Reasoning",
+    "image_group": 30,
+    "huaman_answer": "Front right.",
+    "gpt-short-ans": "Right side.",
+	"correctness": 1,
+    "gpt-long-ans": "The perspective in the first image shows the wooden chair on the left with respect to the doorway. In the third image, the sofa is visible to the right of the doorway, indicating that the sofa is on the right with respect to the wooden chair."
+}]

@@ -10,7 +10,7 @@
             "image176.png"
         ],
         "image_required": ["image171.png", "image172.png", "image175.png", "image176.png"],
-        "question": "How many different drawings in total are there on the wall in the scene?",
+        "question": "How many different drawings in total are there on the wall?",
         "answer": "2",
         "question_type": "Joint Counting",
         "image_group": 1
@@ -26,7 +26,7 @@
             "image176.png"
         ],
         "image_required": ["image172.png", "image172.png"],
-        "question": "Is the floor lamp beside the bed by the same side of the wall as the light grey sofa?",
+        "question": "Is the floor lamp beside the bed and the light grey sofa by the same wall that extends between the bedroom and living room?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
         "image_group": 1
@@ -42,7 +42,7 @@
             "image176.png"
         ],
         "image_required": ["image171.png", "image175.png"],
-        "question": "Is the photo frame on the dark cabinet by the same side of the wall as the light grey sofa?",
+        "question": "Are the photo frame on the dark cabinet in the bedroom and the light grey sofa in the living room both by the same wall that extends between the two rooms?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 1
@@ -58,7 +58,7 @@
             "image176.png"
         ],
         "image_required": ["image174.png"],
-        "question": "Is the tissue box beside the bed close to the same side of the wall as photo frame on the dark cabinet?",
+        "question": "Is the tissue box beside the bed by the same wall as photo frame on the dark cabinet?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
         "image_group": 1
@@ -74,7 +74,7 @@
             "image176.png"
         ],
         "image_required": ["image175.png", "image171.png"],
-        "question": "Is the the photo frame on the dark cabinet close to the same side of the wall as the drawing above the light grey sofa is hung on?",
+        "question": "Are the photo frame on the dark cabinet in the bedroom and the drawing above the light grey sofa in the living room both by the same wall that extends between the two rooms?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 1
@@ -90,7 +90,7 @@
         "image_required": ["image421.png", "image422.png", "image423.png"],
         "question": "Is the TV on the same side or on the opposite side to the desktop in the room?",
         "answer": "Opposite side.",
-        "question_type": "Spatial Counting",
+        "question_type": "Spatial Reasoning",
         "image_group": 2
     },
     {
@@ -104,7 +104,7 @@
         "image_required": ["image421.png", "image422.png"],
         "question": "Is the window on the right side or left side of the computer table when facing the computer?",
         "answer": "Right side.",
-        "question_type": "Spatial Counting",
+        "question_type": "Spatial Reasoning",
         "image_group": 2
     },
     {
@@ -118,7 +118,7 @@
         "image_required": ["image423.png", "image424.png"],
         "question": "Is there a small blue chair in the front area of the TV?",
         "answer": "Yes.",
-        "question_type": "Spatial Counting",
+        "question_type": "Spatial Reasoning",
         "image_group": 2
     },
     {
@@ -132,7 +132,7 @@
         "image_required": ["image421.png", "image422.png"],
         "question": "Is the white trashbox near the computer table on the left side or the right side of the foosball table when facing away from the TV?",
         "answer": "left.",
-        "question_type": "Spatial Counting",
+        "question_type": "Spatial Reasoning",
         "image_group": 2
     },
     {
@@ -258,7 +258,7 @@
         "image_required": [["image344.png", "image345.png", "image346.png"], "image347.png"],
         "question": "Does the cupboard in the living room have a similar color to the cupboard in the kitchen?",
         "answer": "Yes",
-        "question_type": "Obejct Comparison",
+        "question_type": "Object Comparison",
         "image_group": 4
     },
     {
@@ -272,7 +272,7 @@
         "image_required": [["image344.png", "image345.png", "image346.png"], "image347.png"],
         "question": "Are all the chairs in the living room and the kitchen of the same kind?",
         "answer": "Yes",
-        "question_type": "Obejct Comparison",
+        "question_type": "Object Comparison",
         "image_group": 4
     },
     {
@@ -656,7 +656,7 @@
         "image_required": ["image603.png", "image604.png"],
         "question": "Do the wall with bicycles and the wall on the opposite have the same texture?",
         "answer": "No.",
-        "question_type": "Spatial Reasoning + Object Comparison",
+        "question_type": "Object Comparison",
         "image_group": 9
     },
     {
@@ -774,7 +774,7 @@
         "image_required": ["image746.png", "image747.png", "image748.png"],
         "question": "Is the white door in the kitchen facing towards the window?",
         "answer": "Yes.",
-        "question_type": "Spatial reasoning",
+        "question_type": "Spatial Reasoning",
         "image_group": 11
     },
     {
@@ -798,7 +798,7 @@
         "image_required": ["image746.png", "image755.png"],
         "question": "Is the mircrowave placed on the same kitchen counter as the gas stove?",
         "answer": "No.",
-        "question_type": "Spatial reasoning",
+        "question_type": "Spatial Reasoning",
         "image_group": 11
     },
     {
@@ -822,7 +822,7 @@
         "image_required": ["image749.png", "image758.png"],
         "question": "Is the sink on the opposite side of the gas stove?",
         "answer": "Yes.",
-        "question_type": "Spatial reasoning",
+        "question_type": "Spatial Reasoning",
         "image_group": 11
     },
     {
@@ -844,9 +844,9 @@
             "image758.png"
         ],
         "image_required": [],
-        "question": "Is the TV hung on the wall in the living room on the opposite side of the gas stove?",
+        "question": "Is the TV on the wall in the living room on the opposite side of the gas stove?",
         "answer": "Yes.",
-        "question_type": "Spatial reasoning",
+        "question_type": "Spatial Reasoning",
         "image_group": 11
     },
     {
@@ -919,7 +919,7 @@
             "image766.png"
         ],
         "image_required": [],
-        "question": "Are dish sterilizer and oven facing towards each other?",
+        "question": "Are the dish sterilizer and oven facing towards each other?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
         "image_group": 12
@@ -1491,7 +1491,7 @@
             "image912.png"
         ],
         "image_required": [],
-        "question": "How many drawings hung on the bedroom wall?",
+        "question": "How many drawings are on the bedroom wall?",
         "answer": "3.",
         "question_type": "Joint Counting",
         "image_group": 20
@@ -1704,7 +1704,7 @@
             "image974.png"
         ],
         "image_required": [],
-        "question": "How many drawings or posters in total are hung on the bedroom wall?",
+        "question": "How many drawings and posters in total are hanging on the bedroom wall?",
         "answer": "4",
         "question_type": "Joint Counting",
         "image_group": 23
@@ -1996,7 +1996,7 @@
             "image1047.png"
         ],
         "image_required": [],
-        "question": "Which side are the two cabinets by the wall at in relation to the wooden desk?",
+        "question": "Which side are the two cabinets by the wall on in relation to the wooden desk?",
         "answer": "Right.",
         "question_type": "Spatial Reasoning",
         "image_group": 27
@@ -2108,7 +2108,7 @@
             "image1069.png"
         ],
         "image_required": [],
-        "question": "Is the painting by the wall is opposite to the white wardrobe?",
+        "question": "Is the painting near the bed opposite to the white wardrobe?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 29
