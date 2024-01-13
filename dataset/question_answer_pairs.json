@@ -9,7 +9,7 @@
             "image175.png",
             "image176.png"
         ],
-        "image_required": ["image171.png", "image172.png", "image175.png", "image176.png"],
+        "image_required": ["image171.png", "image172.png"],
         "question": "How many different drawings in total are there on the wall?",
         "answer": "2",
         "question_type": "Joint Counting",
@@ -25,7 +25,7 @@
             "image175.png",
             "image176.png"
         ],
-        "image_required": ["image172.png", "image172.png"],
+        "image_required": ["image172.png", "image173.png"],
         "question": "Is the floor lamp beside the bed and the light grey sofa by the same wall that extends between the bedroom and living room?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -57,8 +57,8 @@
             "image175.png",
             "image176.png"
         ],
-        "image_required": ["image174.png"],
-        "question": "Is the tissue box beside the bed by the same wall as photo frame on the dark cabinet?",
+        "image_required": ["image171.png", "image174.png"],
+        "question": "Is the tissue box beside the bed by the same wall as the light grey sofa?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
         "image_group": 1
@@ -74,7 +74,7 @@
             "image176.png"
         ],
         "image_required": ["image175.png", "image171.png"],
-        "question": "Are the photo frame on the dark cabinet in the bedroom and the drawing above the light grey sofa in the living room both by the same wall that extends between the two rooms?",
+        "question": "Is the photo frame on the dark cabinet positioned behind the bookshelf?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 1
@@ -129,9 +129,9 @@
             "image423.png",
             "image424.png"
         ],
-        "image_required": ["image421.png", "image422.png"],
+        "image_required": ["image421.png", "image422.png", "image423.png"],
         "question": "Is the white trashbox near the computer table on the left side or the right side of the foosball table when facing away from the TV?",
-        "answer": "left.",
+        "answer": "Left.",
         "question_type": "Spatial Reasoning",
         "image_group": 2
     },
@@ -143,7 +143,7 @@
             "image423.png",
             "image424.png"
         ],
-        "image_required": ["image421.png", "image422.png", "image423.png"],
+        "image_required": ["image421.png", "image424.png"],
         "question": "How many chairs are there in the room in total?",
         "answer": "4.",
         "question_type": "Joint Counting",
@@ -157,10 +157,10 @@
             "image282.png",
             "image283.png"
         ],
-        "image_required": ["image280.png", "image281.png", "image282.png"],
+        "image_required": ["image281.png", "image282.png"],
         "question": "How many windows are there in the room?",
         "answer": "2.",
-        "question_type": "Spatial Reasoning",
+        "question_type": "Joint Counting",
         "image_group": 3
     },
     {
@@ -199,7 +199,7 @@
             "image282.png",
             "image283.png"
         ],
-        "image_required": ["image280.png"],
+        "image_required": ["image281.png", "image283.png"],
         "question": "How many table lamps beside the bed?",
         "answer": "2.",
         "question_type": "Joint Counting",
@@ -227,7 +227,7 @@
             "image346.png",
             "image347.png"
         ],
-        "image_required": [["image344.png", "image345.png"], "image347.png"],
+        "image_required": ["image345.png", "image347.png"],
         "question": "How many chairs are there in the living room and kitchen in total?",
         "answer": "9",
         "question_type": "Joint Counting",
@@ -241,7 +241,7 @@
             "image346.png",
             "image347.png"
         ],
-        "image_required": [["image344.png", "image345.png"], "image347.png"],
+        "image_required": ["image344.png", "image347.png"],
         "question": "Is the window in the kitchen opposite to the framed picture hanging above the dining table?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -255,7 +255,7 @@
             "image346.png",
             "image347.png"
         ],
-        "image_required": [["image344.png", "image345.png", "image346.png"], "image347.png"],
+        "image_required": ["image346.png", "image347.png"],
         "question": "Does the cupboard in the living room have a similar color to the cupboard in the kitchen?",
         "answer": "Yes",
         "question_type": "Object Comparison",
@@ -269,8 +269,8 @@
             "image346.png",
             "image347.png"
         ],
-        "image_required": [["image344.png", "image345.png", "image346.png"], "image347.png"],
-        "question": "Are all the chairs in the living room and the kitchen of the same kind?",
+        "image_required": ["image345.png", "image347.png"],
+        "question": "Are the chairs in the living room and the kitchen of the same kind?",
         "answer": "Yes",
         "question_type": "Object Comparison",
         "image_group": 4
@@ -283,8 +283,8 @@
             "image346.png",
             "image347.png"
         ],
-        "image_required": [["image344.png", "image345.png"], "image347.png"],
-        "question": "How many chairs in living room are facing in the same direction as the chairs in the kitchen?",
+        "image_required": ["image346.png", "image347.png"],
+        "question": "How many chairs in living room face the same direction as the chairs in the kitchen?",
         "answer": "1",
         "question_type": "Spatial Reasoning + Counting",
         "image_group": 4
@@ -298,7 +298,7 @@
             "image401.png",
             "image402.png"
         ],
-        "image_required": ["image398.png", "image400.png", "image402.png"],
+        "image_required": ["image401.png","image402.png"],
         "question": "How many windows are there in the room in total?",
         "answer": "3",
         "question_type": "Joint Counting",
@@ -313,7 +313,7 @@
             "image401.png",
             "image402.png"
         ],
-        "image_required": [["image399.png", "image401.png"], "image402.png"],
+        "image_required": ["image399.png", "image402.png"],
         "question": "Is there a window opposite to the bookshelf?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -328,7 +328,7 @@
             "image401.png",
             "image402.png"
         ],
-        "image_required": [["image399.png", "image400.png", "image401.png"], ["image398.png", "image402.png"]],
+        "image_required": ["image401.png", "image402.png"],
         "question": "Is the TV opposite to the bookshelf?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -343,7 +343,7 @@
             "image401.png",
             "image402.png"
         ],
-        "image_required": [["image399.png", "image400.png", "image401.png"], ["image398.png", "image402.png"]],
+        "image_required": ["image401.png", "image402.png"],
         "question": "Is the TV in front of the white cane chair?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -358,10 +358,10 @@
             "image401.png",
             "image402.png"
         ],
-        "image_required": ["image400.png", ["image401.png", "image402.png"]],
+        "image_required": ["image400.png", "image402.png"],
         "question": "Does it have more cardboard boxes near the bed or near the bookshelf?",
         "answer": "Near the bookshelf.",
-        "question_type": "Spatial Reasoning",
+        "question_type": "Object Comparison",
         "image_group": 5
     },
     {
@@ -373,7 +373,7 @@
             "image439.png",
             "image440.png"
         ],
-        "image_required": [["image436.png", "image437.png"], "image438.png", ["image439.png", "image440.png"]],
+        "image_required": ["image437.png", "image438.png", "image439.png"],
         "question": "How many doors are there in this room?",
         "answer": "2",
         "question_type": "Joint Counting",
@@ -388,7 +388,7 @@
             "image439.png",
             "image440.png"
         ],
-        "image_required": [["image436.png", "image437.png"], "image438.png"],
+        "image_required": ["image437.png", "image438.png", "image439.png"],
         "question": "Is the TV placed in front of the sofa or at the leftside of the sofa?",
         "answer": "In front of.",
         "question_type": "Spatial Reasoning",
@@ -403,7 +403,7 @@
             "image439.png",
             "image440.png"
         ],
-        "image_required": [["image436.png", "image437.png"], "image438.png"],
+        "image_required": ["image437.png", "image438.png"],
         "question": "Is the desk near the foosball table of the same color as the TV bench?",
         "answer": "No.",
         "question_type": "Object Comparison",
@@ -418,8 +418,8 @@
             "image439.png",
             "image440.png"
         ],
-        "image_required": [["image436.png", "image437.png"], "image438.png", ["image439.png", "image440.png"]],
-        "question": "Are the doors on the same side of the room?",
+        "image_required": ["image437.png", "image438.png", "image439.png"],
+        "question": "Are the doors positioned along the same wall in the room?",
         "answer": "No",
         "question_type": "Spatial Reasoning",
         "image_group": 6
@@ -433,7 +433,7 @@
             "image439.png",
             "image440.png"
         ],
-        "image_required": ["image438.png", ["image439.png", "image440.png"]],
+        "image_required": ["image438.png", "image439.png", "image440.png"],
         "question": "Is the toy table closer to the sofa or to the foosball table?",
         "answer": "Sofa.",
         "question_type": "Spatial Reasoning",
@@ -447,7 +447,7 @@
             "image600.png",
             "image601.png"
         ],
-        "image_required": [["image598.png", "image600.png"], "image601.png"],
+        "image_required": ["image598.png", "image601.png"],
         "question": "How many sofas are there in the living room?",
         "answer": "3",
         "question_type": "Joint Counting",
@@ -475,8 +475,8 @@
             "image600.png",
             "image601.png"
         ],
-        "image_required": ["image600.png", "image601.png"],
-        "question": "How many tables in the living room?",
+        "image_required": ["image598.png", "image599.png", "image600.png"],
+        "question": "How many tables are there in the living room?",
         "answer": "3",
         "question_type": "Joint Counting",
         "image_group": 7
@@ -503,7 +503,7 @@
             "image600.png",
             "image601.png"
         ],
-        "image_required": ["image598.png", "image601.png"],
+        "image_required": ["image598.png", "image600.png", "image601.png"],
         "question": "Are the two passages in the living room located on the opposite side of each other?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -518,7 +518,7 @@
             "image582.png",
             "image583.png"
         ],
-        "image_required": [["image579.png", "image582.png", "image583.png"], "image580.png", "image581.png"],
+        "image_required": ["image579.png", "image580.png", "image581.png"],
         "question": "Is the television facing the fireplace?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -533,7 +533,7 @@
             "image582.png",
             "image583.png"
         ],
-        "image_required": [["image579.png", "image582.png"], "image580.png", "image581.png"],
+        "image_required": ["image579.png", "image580.png", "image581.png"],
         "question": "How many red pillows are there on the sofa and chair in total?",
         "answer": "5.",
         "question_type": "Joint Counting",
@@ -548,7 +548,7 @@
             "image582.png",
             "image583.png"
         ],
-        "image_required": ["image579.png", "image581.png"],
+        "image_required": ["image579.png", "image580.png", "image581.png"],
         "question": "Is the wooden chair in front of the TV?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -563,7 +563,7 @@
             "image582.png",
             "image583.png"
         ],
-        "image_required": [["image579.png", "image582.png"], ["image580.png", "image581.png"], "image583.png"],
+        "image_required": ["image580.png", "image582.png", "image583.png"],
         "question": "How many lamps are there in the room?",
         "answer": "3.",
         "question_type": "Joint Counting",
@@ -578,7 +578,7 @@
             "image582.png",
             "image583.png"
         ],
-        "image_required": ["image579.png", "image580.png"],
+        "image_required": ["image579.png", "image580.png", "image582.png"],
         "question": "Is the bookshelf facing the window?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -594,7 +594,7 @@
             "image607.png"
         ],
         "image_required": ["image603.png", "image604.png"],
-        "question": "Where is the bicycle in relation to the sofa?",
+        "question": "Where is the bicycle in relation to the sofa when sitting on the sofa?",
         "answer": "Left side.",
         "question_type": "Spatial Reasoning",
         "image_group": 9
@@ -608,7 +608,7 @@
             "image606.png",
             "image607.png"
         ],
-        "image_required": ["image603.png", "image604.png"],
+        "image_required": ["image603.png", "image604.png", "image606.png"],
         "question": "Is the bicyle closer to the sofa or to the electric fan?",
         "answer": "Sofa.",
         "question_type": "Spatial Reasoning",
@@ -638,8 +638,8 @@
             "image606.png",
             "image607.png"
         ],
-        "image_required": ["image603.png", "image604.png"],
-        "question": "Is the computer at the left side or the right side of the small bookshelf when facing the bookshelf?",
+        "image_required": ["image603.png", "image604.png", "image607.png"],
+        "question": "Is the computer at the left side or the right side of the small bookshelf when facing that bookshelf?",
         "answer": "Left side.",
         "question_type": "Spatial Reasoning",
         "image_group": 9
@@ -682,7 +682,7 @@
             "image643.png"
         ],
         "image_required": ["image640.png", "image641.png"],
-        "question": "Is the shelf closer to the table tennis table or to the wooden table?",
+        "question": "Is the shelf on the wall closer to the table tennis table or to the wooden table surrounded by chairs?",
         "answer": "Table tennis table.",
         "question_type": "Spatial Reasoning",
         "image_group": 10
@@ -709,7 +709,7 @@
             "image642.png",
             "image643.png"
         ],
-        "image_required": ["image641.png", ["image642.png", "image643.png"]],
+        "image_required": ["image641.png", "image642.png", "image643.png"],
         "question": "Is the door on the opposite side of the shelf?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -747,7 +747,7 @@
             "image757.png",
             "image758.png"
         ],
-        "image_required": ["image746.png", "image748.png", "image749.png", "image757.png"],
+        "image_required": ["image746.png", "image748.png", "image749.png", "image754.png"],
         "question": "How many chairs are there in total?",
         "answer": "14",
         "question_type": "Joint Counting",
@@ -771,7 +771,7 @@
             "image757.png",
             "image758.png"
         ],
-        "image_required": ["image746.png", "image747.png", "image748.png"],
+        "image_required": ["image756.png", "image757.png", "image758.png", "image748.png"],
         "question": "Is the white door in the kitchen facing towards the window?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -795,8 +795,8 @@
             "image757.png",
             "image758.png"
         ],
-        "image_required": ["image746.png", "image755.png"],
-        "question": "Is the mircrowave placed on the same kitchen counter as the gas stove?",
+        "image_required": ["image755.png", "image756.png"],
+        "question": "Is the mircrowave placed on the opposite side as the gas stove?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
         "image_group": 11
@@ -819,7 +819,7 @@
             "image757.png",
             "image758.png"
         ],
-        "image_required": ["image749.png", "image758.png"],
+        "image_required": ["image750.png", "image751.png", "image755.png"],
         "question": "Is the sink on the opposite side of the gas stove?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -843,7 +843,7 @@
             "image757.png",
             "image758.png"
         ],
-        "image_required": [],
+        "image_required": ["image755.png", "image756.png", "image757.png"],
         "question": "Is the TV on the wall in the living room on the opposite side of the gas stove?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -858,7 +858,7 @@
             "image765.png",
             "image766.png"
         ],
-        "image_required": [],
+        "image_required": ["image762.png", "image763.png", "image764.png"],
         "question": "Is the refrigerator facing the window?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -873,7 +873,7 @@
             "image765.png",
             "image766.png"
         ],
-        "image_required": [],
+        "image_required": ["image763.png", "image764.png"],
         "question": "Is there an induction cooker near the refrigerator?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -888,7 +888,7 @@
             "image765.png",
             "image766.png"
         ],
-        "image_required": [],
+        "image_required": ["image762.png", "image765.png"],
         "question": "How many sink basins are there in the kitchen?",
         "answer": "3",
         "question_type": "Joint Counting",
@@ -903,7 +903,7 @@
             "image765.png",
             "image766.png"
         ],
-        "image_required": [],
+        "image_required": ["image762.png", "image764.png"],
         "question": "Is the kitchen door facing the window?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -918,9 +918,9 @@
             "image765.png",
             "image766.png"
         ],
-        "image_required": [],
-        "question": "Are the dish sterilizer and oven facing towards each other?",
-        "answer": "No.",
+        "image_required": ["image762.png", "image764.png"],
+        "question": "Is the oven facing the window?",
+        "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 12
     },
@@ -928,12 +928,13 @@
         "question_id": 61,
         "image_set": [
             "image767.png",
+            "image768.png",
             "image769.png",
             "image770.png",
             "image771.png"
         ],
-        "image_required": [],
-        "question": "Is the gas stove opposite to any window?",
+        "image_required": ["image770.png", "image771.png"],
+        "question": "Is the gas stove opposite to the window?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
         "image_group": 13
@@ -942,12 +943,13 @@
         "question_id": 62,
         "image_set": [
             "image767.png",
+            "image768.png",
             "image769.png",
             "image770.png",
             "image771.png"
         ],
-        "image_required": [],
-        "question": "Is the door facing any window?",
+        "image_required": ["image769.png", "image770.png", "image771.png"],
+        "question": "Is the white door facing the window?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
         "image_group": 13
@@ -956,11 +958,12 @@
         "question_id": 63,
         "image_set": [
             "image767.png",
+            "image768.png",
             "image769.png",
             "image770.png",
             "image771.png"
         ],
-        "image_required": [],
+        "image_required": ["image767.png", "image768.png"],
         "question": "How many chairs are facing towards the door?",
         "answer": "2.",
         "question_type": "Spatial Reasoning + Counting",
@@ -970,6 +973,7 @@
         "question_id": 64,
         "image_set": [
             "image767.png",
+            "image768.png",
             "image769.png",
             "image770.png",
             "image771.png"
@@ -984,11 +988,12 @@
         "question_id": 65,
         "image_set": [
             "image767.png",
+            "image768.png",
             "image769.png",
             "image770.png",
             "image771.png"
         ],
-        "image_required": [],
+        "image_required": ["image769.png", "image770.png", "image771.png"],
         "question": "Is the refrigerator facing any window?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -1002,7 +1007,7 @@
             "image786.png",
             "image787.png"
         ],
-        "image_required": [],
+        "image_required": ["image784.png", "image785.png", "image786.png"],
         "question": "Is the electric kettle placed on the same table as the electric cooker?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -1016,7 +1021,7 @@
             "image786.png",
             "image787.png"
         ],
-        "image_required": [],
+        "image_required": ["image784.png", "image785.png"],
         "question": "Is the refrigerator facing the TV?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -1030,7 +1035,7 @@
             "image786.png",
             "image787.png"
         ],
-        "image_required": [],
+        "image_required": ["image784.png", "image786.png"],
         "question": "Is the microwave facing towards the window blind?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -1044,8 +1049,8 @@
             "image786.png",
             "image787.png"
         ],
-        "image_required": [],
-        "question": "Is the living room on the right side or left side of the refrigerator when facing the refrigerator?",
+        "image_required": ["image784.png", "image785.png"],
+        "question": "Is the TV on the right side or left side of the refrigerator when facing the refrigerator?",
         "answer": "right side.",
         "question_type": "Spatial Reasoning",
         "image_group": 14
@@ -1058,7 +1063,7 @@
             "image786.png",
             "image787.png"
         ],
-        "image_required": [],
+        "image_required": ["image784.png", "image785.png"],
         "question": "Is the refrigerator closer to the electric kettle or the electric cooker?",
         "answer": "Electric cooker.",
         "question_type": "Spatial Reasoning",
@@ -1073,8 +1078,8 @@
             "image792.png",
             "image793.png"
         ],
-        "image_required": [],
-        "question": "Is the white door next to the black oven facing any window?",
+        "image_required": ["image788.png",  "image790.png"],
+        "question": "Is the sink opposite to the white door in the kitchen?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 15
@@ -1088,7 +1093,7 @@
             "image792.png",
             "image793.png"
         ],
-        "image_required": [],
+        "image_required": ["image790.png", "image792.png"],
         "question": "How many sink basins in total are there in the kitchen?",
         "answer": "4.",
         "question_type": "Joint Counting",
@@ -1103,8 +1108,8 @@
             "image792.png",
             "image793.png"
         ],
-        "image_required": [],
-        "question": "Is there any window on the left side if the mircrowave oven when facing the mircrowave oven?",
+        "image_required": ["image790.png", "image791.png"],
+        "question": "Is there any sink on the left side of the mircrowave oven when facing the mircrowave oven?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 15
@@ -1118,7 +1123,7 @@
             "image792.png",
             "image793.png"
         ],
-        "image_required": [],
+        "image_required": ["image788.png", "image789.png"],
         "question": "How many doorless passage are there in the kitchen?",
         "answer": "2.",
         "question_type": "Joint Counting",
@@ -1133,7 +1138,7 @@
             "image792.png",
             "image793.png"
         ],
-        "image_required": [],
+        "image_required": ["image790.png",  "image791.png"],
         "question": "Is there a doorless passage on the left side of the black oven when facing the oven?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -1149,10 +1154,10 @@
             "image819.png",
             "image820.png"
         ],
-        "image_required": [],
-        "question": "How many chairs around the table in the kitchen?",
-        "answer": "4.",
-        "question_type": "Joint Counting",
+        "image_required": ["image815.png", "image818.png"],
+        "question": "Is the drawing near the refrigerator opposite to the small red display on the kitchen counter?",
+        "answer": "No.",
+        "question_type": "Spatial Reasoning",
         "image_group": 16
     },
     {
@@ -1165,8 +1170,8 @@
             "image819.png",
             "image820.png"
         ],
-        "image_required": [],
-        "question": "How many small microwave oven are there in the kitchen?",
+        "image_required": ["image817.png", "image818.png", "image819.png"],
+        "question": "How many microwave oven are there in the kitchen?",
         "answer": "2",
         "question_type": "Joint Counting",
         "image_group": 16
@@ -1181,9 +1186,9 @@
             "image819.png",
             "image820.png"
         ],
-        "image_required": [],
+        "image_required": ["image817.png", "image820.png"],
         "question": "Is the electric kettle closer to the bookshelf or to the refrigerator?",
-        "answer": "bookshelf.",
+        "answer": "Bookshelf.",
         "question_type": "Spatial Reasoning",
         "image_group": 16
     },
@@ -1197,7 +1202,7 @@
             "image819.png",
             "image820.png"
         ],
-        "image_required": [],
+        "image_required": ["image817.png", "image820.png"],
         "question": "Is the refrigerator facing the bookshelf?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -1213,7 +1218,7 @@
             "image819.png",
             "image820.png"
         ],
-        "image_required": [],
+        "image_required": ["image817.png", "image818.png"],
         "question": "Is the small monitor near the sink facing the bookshelf?",
         "answer": "No,",
         "question_type": "Spatial Reasoning",
@@ -1227,7 +1232,7 @@
             "image878.png",
             "image879.png"
         ],
-        "image_required": [],
+        "image_required": ["image876.png", "image877.png"],
         "question": "Is the door facing the window?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -1241,7 +1246,7 @@
             "image878.png",
             "image879.png"
         ],
-        "image_required": [],
+        "image_required": ["image876.png", "image877.png"],
         "question": "Is the TV in front of the oven?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -1251,12 +1256,12 @@
         "question_id": 83,
         "image_set": [
             "image876.png",
-            "image877.png",
+            "image876.png",
             "image878.png",
             "image879.png"
         ],
-        "image_required": [],
-        "question": "How many chairs around the table?",
+        "image_required": ["image876.png", "image877.png"],
+        "question": "Is the TV facing the door?",
         "answer": "4",
         "question_type": "Joint Counting",
         "image_group": 17
@@ -1269,9 +1274,9 @@
             "image878.png",
             "image879.png"
         ],
-        "image_required": [],
-        "question": "Is the white microwave oven placed on the same side as the TV?",
-        "answer": "No.",
+        "image_required": ["image876.png", "image877.png"],
+        "question": "Is the white dishwasher opposite to the black oven?",
+        "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 17
     },
@@ -1283,8 +1288,8 @@
             "image878.png",
             "image879.png"
         ],
-        "image_required": [],
-        "question": "Is there a window in front of the the oven?",
+        "image_required": ["image876.png", "image877.png"],
+        "question": "Is there a window in front of the black oven?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 17
@@ -1300,7 +1305,7 @@
             "image893.png",
             "image894.png"
         ],
-        "image_required": [],
+        "image_required": ["image888.png", "image889.png"],
         "question": "Is the round dinner table on the left side or right side of the refrigerator when facing the refrigerator?",
         "answer": "Left side.",
         "question_type": "Spatial Reasoning",
@@ -1317,7 +1322,7 @@
             "image893.png",
             "image894.png"
         ],
-        "image_required": [],
+        "image_required": ["image888.png", "image889.png"],
         "question": "How many chairs in total in the kitchen?",
         "answer": "8.",
         "question_type": "Joint Counting",
@@ -1334,9 +1339,9 @@
             "image893.png",
             "image894.png"
         ],
-        "image_required": [],
-        "question": "Is the window on the left side or right side of the refrigerator when facing the refrigerator?",
-        "answer": "Left side.",
+        "image_required": ["image889.png", "image890.png", "image891.png"],
+        "question": "Is the sink the left side or right side of the refrigerator when facing the refrigerator?",
+        "answer": "Right side.",
         "question_type": "Spatial Reasoning",
         "image_group": 18
     },
@@ -1351,8 +1356,8 @@
             "image893.png",
             "image894.png"
         ],
-        "image_required": [],
-        "question": "Is the white cupboard near the sink is on the left side or right side of the oven when facing the oven?",
+        "image_required": ["image889.png", "image890.png", "image891.png", "image892.png"],
+        "question": "Is the gas cooker on the left side or right side of the refrigerator when facing the refrigerator?",
         "answer": "Right side.",
         "question_type": "Spatial Reasoning",
         "image_group": 18
@@ -1368,10 +1373,10 @@
             "image893.png",
             "image894.png"
         ],
-        "image_required": [],
-        "question": "How many different sinks are there in the kitchen?",
-        "answer": "2.",
-        "question_type": "Joint Counting",
+        "image_required": ["image889.png", "image890.png", "image893.png"],
+        "question": "Is the white cupboard for food on the left side or right side of the refrigerator when facing the refrigerator?",
+        "answer": "Right side.",
+        "question_type": "Spatial Reasoning",
         "image_group": 18
     },
     {
@@ -1384,7 +1389,7 @@
             "image904.png",
             "image905.png"
         ],
-        "image_required": [],
+        "image_required": ["image900.png", "image901.png"],
         "question": "How many chairs in total are there in the scene?",
         "answer": "5.",
         "question_type": "Joint Counting",
@@ -1400,7 +1405,7 @@
             "image904.png",
             "image905.png"
         ],
-        "image_required": [],
+        "image_required": ["image904.png", "image905.png"],
         "question": "Is the sink on the right side of the induction cooker?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -1416,7 +1421,7 @@
             "image904.png",
             "image905.png"
         ],
-        "image_required": [],
+        "image_required": ["image900.png", "image901.png"],
         "question": "How many different drawings are there in the room?",
         "answer": "2.",
         "question_type": "Joint Counting",
@@ -1432,9 +1437,9 @@
             "image904.png",
             "image905.png"
         ],
-        "image_required": [],
-        "question": "The dog is at the left side or the right side of the refrigerator when facing the refrigerator?",
-        "answer": "Left.",
+        "image_required": ["image900.png", "image901.png", "image905.png"],
+        "question": "Which side is dog on in relation to the induction cooker when standing in front of the induction cooker?",
+        "answer": "Right side.",
         "question_type": "Spatial Reasoning",
         "image_group": 19
     },
@@ -1448,7 +1453,7 @@
             "image904.png",
             "image905.png"
         ],
-        "image_required": [],
+        "image_required": [ "image900.png", "image901.png"],
         "question": "Is drawing hung above the dinner table facing the kitchen window?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -1462,7 +1467,7 @@
             "image911.png",
             "image912.png"
         ],
-        "image_required": [],
+        "image_required": ["image910.png", "image911.png", "image912.png"],
         "question": "Is the chair facing the TV?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -1476,8 +1481,8 @@
             "image911.png",
             "image912.png"
         ],
-        "image_required": [],
-        "question": "Is the wardrobe in front of the bed?",
+        "image_required": ["image910.png", "image911.png"],
+        "question": "Is the wardrobe opposite to the bed?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 20
@@ -1490,7 +1495,7 @@
             "image911.png",
             "image912.png"
         ],
-        "image_required": [],
+        "image_required": ["image909.png", "image910.png"],
         "question": "How many drawings are on the bedroom wall?",
         "answer": "3.",
         "question_type": "Joint Counting",
@@ -1504,9 +1509,9 @@
             "image911.png",
             "image912.png"
         ],
-        "image_required": [],
-        "question": "Is the TV in front of the bed or on the left side of the bed?",
-        "answer": "In front of.",
+        "image_required": ["image910.png", "image911.png", "image912.png"],
+        "question": "Which side is the TV on in relation to the bed when sitting on the bed?",
+        "answer": "In the front side.",
         "question_type": "Spatial Reasoning",
         "image_group": 20
     },
@@ -1518,7 +1523,7 @@
             "image911.png",
             "image912.png"
         ],
-        "image_required": [],
+        "image_required": ["image911.png", "image912.png"],
         "question": "Is the TV facing the bedroom window?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -1532,7 +1537,7 @@
             "image915.png",
             "image916.png"
         ],
-        "image_required": [],
+        "image_required": ["image913.png", "image914.png", "image915.png"],
         "question": "How many different drawings on the bedroom wall?",
         "answer": "5",
         "question_type": "Joint Counting",
@@ -1546,7 +1551,7 @@
             "image915.png",
             "image916.png"
         ],
-        "image_required": [],
+        "image_required": ["image913.png", "image914.png"],
         "question": "Is the TV in front of the bed or on the right side of the bed?",
         "answer": "In front of.",
         "question_type": "Spatial Reasoning",
@@ -1560,8 +1565,8 @@
             "image915.png",
             "image916.png"
         ],
-        "image_required": [],
-        "question": "Is the window on the left side or the right side of the desk lamp?",
+        "image_required": ["image914.png", "image915.png"],
+        "question": "Which side the bathroom door is on in relation to the bed when lying on the bed?",
         "answer": "Right.",
         "question_type": "Spatial Reasoning",
         "image_group": 21
@@ -1574,8 +1579,8 @@
             "image915.png",
             "image916.png"
         ],
-        "image_required": [],
-        "question": "Is the white double door in front of the TV or on the right side of the TV?",
+        "image_required": ["image913.png", "image914.png", "image915.png"],
+        "question": "Is the closed white door behind the wooden chair facing the TV?",
         "answer": "Right.",
         "question_type": "Spatial Reasoning",
         "image_group": 21
@@ -1588,9 +1593,9 @@
             "image915.png",
             "image916.png"
         ],
-        "image_required": [],
-        "question": "Is the wooden chair closer to the bed or to the bedside desk?",
-        "answer": "Bed.",
+        "image_required": ["image914.png", "image915.png"],
+        "question": "Is the closed white door behind the wooden chair facing the window?",
+        "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 21
     },
@@ -1602,9 +1607,9 @@
             "image934.png",
             "image935.png"
         ],
-        "image_required": [],
-        "question": "Is the study desk in front of the sofa or on the left side of it?",
-        "answer": "In front of.",
+        "image_required": ["image933.png", "image934.png", "image935.png"],
+        "question": "Is the study desk in front of the small blue sofa?",
+        "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 22
     },
@@ -1616,8 +1621,8 @@
             "image934.png",
             "image935.png"
         ],
-        "image_required": [],
-        "question": "Is the window on the left side of room or the right side of the room when sitting on the sofa?",
+        "image_required": ["image933.png", "image934.png"],
+        "question": "Is the window on the left side or right side when sitting on the sofa?",
         "answer": "Left.",
         "question_type": "Spatial Reasoning",
         "image_group": 22
@@ -1630,8 +1635,8 @@
             "image934.png",
             "image935.png"
         ],
-        "image_required": [],
-        "question": "Is the bookshelf in front of the bed or on the right side of it?",
+        "image_required": ["image933.png", "image935.png"],
+        "question": "Is the bookshelf in front of the bed?",
         "answer": "In front of.",
         "question_type": "Spatial Reasoning",
         "image_group": 22
@@ -1644,8 +1649,8 @@
             "image934.png",
             "image935.png"
         ],
-        "image_required": [],
-        "question": "Does the bedside desk have the same style as the study desk?",
+        "image_required": ["image934.png", "image935.png"],
+        "question": "Is the bedside desk of the same style as the study desk?",
         "answer": "Yes.",
         "question_type": "Object Comparison",
         "image_group": 22
@@ -1659,8 +1664,8 @@
             "image935.png"
         ],
         "image_required": [],
-        "question": "Is the cardboard box beside the bed in front of the sofa or on its left?",
-        "answer": "On its left.",
+        "question": "Where is the cardboard box by the bed in relation to the sofa when sitting on the sofa?",
+        "answer": "Front left.",
         "question_type": "Spatial Reasoning",
         "image_group": 22
     },
@@ -1673,8 +1678,8 @@
             "image973.png",
             "image974.png"
         ],
-        "image_required": [],
-        "question": "Is the plush toy dog on the left side of the TV or the right side of the TV when facing the TV?",
+        "image_required": ["image970.png", "image971.png"],
+        "question": "Is the plush toy dog on the left side or the right side of the TV when facing the TV?",
         "answer": "Left.",
         "question_type": "Spatial Reasoning",
         "image_group": 23
@@ -1688,7 +1693,7 @@
             "image973.png",
             "image974.png"
         ],
-        "image_required": [],
+        "image_required": ["image972.png", "image973.png"],
         "question": "Is the tall cabinet by the wall on the left side or right side of the bed when lying on the bed?",
         "answer": "Right.",
         "question_type": "Spatial Reasoning",
@@ -1703,8 +1708,8 @@
             "image973.png",
             "image974.png"
         ],
-        "image_required": [],
-        "question": "How many drawings and posters in total are hanging on the bedroom wall?",
+        "image_required": ["image970.png", "image972.png", "image973.png"],
+        "question": "How many drawings and posters are hanging on the wall in total?",
         "answer": "4",
         "question_type": "Joint Counting",
         "image_group": 23
@@ -1718,8 +1723,8 @@
             "image973.png",
             "image974.png"
         ],
-        "image_required": [],
-        "question": "Is the white door next to the TV in front of the tall cabinet?",
+        "image_required": ["image971.png", "image972.png", "image973.png"],
+        "question": "Is the white door by the bed facing the window?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
         "image_group": 23
@@ -1733,10 +1738,10 @@
             "image973.png",
             "image974.png"
         ],
-        "image_required": [],
-        "question": "How many different doors are there in the bedroom?",
-        "answer": "2.",
-        "question_type": "Joint Counting",
+        "image_required": ["image970.png", "image971.png", "image972.png", "image973.png"],
+        "question": "Are the two doors placed on the opposite side to each other?",
+        "answer": "Yes.",
+        "question_type": "Spatial Reasoning",
         "image_group": 23
     },
     {
@@ -1748,9 +1753,9 @@
             "image1011.png",
             "image1012.png"
         ],
-        "image_required": [],
-        "question": "Is the orange bean bag in front of the bed or on its left side?",
-        "answer": "In front of.",
+        "image_required": ["image1008.png", "image1009.png"],
+        "question": "Which side is the orange bean bag on in relation to the bed when lying on the bed?",
+        "answer": "On the front left.",
         "question_type": "Spatial Reasoning",
         "image_group": 24
     },
@@ -1763,7 +1768,7 @@
             "image1011.png",
             "image1012.png"
         ],
-        "image_required": [],
+        "image_required": ["image1009.png", "image1011.png"],
         "question": "Is the green folding bed in front of the bed?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -1778,7 +1783,7 @@
             "image1011.png",
             "image1012.png"
         ],
-        "image_required": [],
+        "image_required": ["image1009.png", "image1010.png", "image1011.png"],
         "question": "Is the bedroom door in front of the bed?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
@@ -1793,8 +1798,8 @@
             "image1011.png",
             "image1012.png"
         ],
-        "image_required": [],
-        "question": "Is there a window in front of the bed?",
+        "image_required": ["image1008.png", "image1009.png"],
+        "question": "Is there a window curtain in front of the bed?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 24
@@ -1808,7 +1813,7 @@
             "image1011.png",
             "image1012.png"
         ],
-        "image_required": [],
+        "image_required": ["image1010.png", "image1011.png"],
         "question": "Is the bedroom door next to the green folding bed?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -1823,8 +1828,8 @@
             "image1016.png",
             "image1017.png"
         ],
-        "image_required": [],
-        "question": "How many framed drawings are hung above the left and right side of the bed?",
+        "image_required": ["image1014.png", "image1017.png"],
+        "question": "How many framed drawings are hanging on the left and right side of the bed?",
         "answer": "4.",
         "question_type": "Joint Counting",
         "image_group": 25
@@ -1838,7 +1843,7 @@
             "image1016.png",
             "image1017.png"
         ],
-        "image_required": [],
+        "image_required": ["image1014.png", "image1016.png"],
         "question": "Is the mirror on the left side or the right side when facing the bed?",
         "answer": "Left.",
         "question_type": "Spatial Reasoning",
@@ -1853,7 +1858,7 @@
             "image1016.png",
             "image1017.png"
         ],
-        "image_required": [],
+        "image_required": ["image1014.png", "image1017.png"],
         "question": "How many lamps are placed at the bedside?",
         "answer": "2.",
         "question_type": "Joint Counting",
@@ -1868,8 +1873,8 @@
             "image1016.png",
             "image1017.png"
         ],
-        "image_required": [],
-        "question": "Is there a decorative drawing in front of the bed?",
+        "image_required": ["image1014.png", "image1015.png"],
+        "question": "Is there a dark cabinet in front of the bed?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 25
@@ -1883,9 +1888,9 @@
             "image1016.png",
             "image1017.png"
         ],
-        "image_required": [],
-        "question": "Which side is the carpet in relation to the bed when facing the bed?",
-        "answer": "Left.",
+        "image_required": ["image1014.png", "image1015.png"],
+        "question": "Which side is the carpet on in relation to the bed when lying on the bed?",
+        "answer": "Front Right.",
         "question_type": "Spatial Reasoning",
         "image_group": 25
     },
@@ -1897,7 +1902,7 @@
             "image1042.png",
             "image1043.png"
         ],
-        "image_required": [],
+        "image_required": ["image1040.png", "image1041.png", "image1043.png"],
         "question": "How many cabinets are there in the room in total?",
         "answer": "3.",
         "question_type": "Joint Counting",
@@ -1911,7 +1916,7 @@
             "image1042.png",
             "image1043.png"
         ],
-        "image_required": [],
+        "image_required": ["image1040.png", "image1041.png"],
         "question": "How many windows are there in the room in total?",
         "answer": "2.",
         "question_type": "Joint Counting",
@@ -1925,8 +1930,8 @@
             "image1042.png",
             "image1043.png"
         ],
-        "image_required": [],
-        "question": "Is there a cabinet behind the chair at the desk?",
+        "image_required": ["image1040.png", "image1041.png"],
+        "question": "Is there a cabinet behind the chair at the study desk?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 26
@@ -1939,8 +1944,8 @@
             "image1042.png",
             "image1043.png"
         ],
-        "image_required": [],
-        "question": "Which side is the tall cabinet between the two beds at in relation to the bookshelf?",
+        "image_required": ["image1040.png", "image1041.png"],
+        "question": "Which side is the tall cabinet between the two beds on in relation to the desk when facing the desk?",
         "answer": "Left.",
         "question_type": "Spatial Reasoning",
         "image_group": 26
@@ -1953,8 +1958,8 @@
             "image1042.png",
             "image1043.png"
         ],
-        "image_required": [],
-        "question": "Is there a window located opposite to the desk (Type: Spatial Reasoning)\n?",
+        "image_required": ["image1040.png", "image1041.png", "image1043.png"],
+        "question": "Is there a window behind the chair?",
         "answer": "No.",
         "question_type": "Spatial Reasoning",
         "image_group": 26
@@ -1967,7 +1972,7 @@
             "image1046.png",
             "image1047.png"
         ],
-        "image_required": [],
+        "image_required": ["image1044.png", "image1045.png"],
         "question": "Is there a wooden desk in front of the bed?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -1981,8 +1986,8 @@
             "image1046.png",
             "image1047.png"
         ],
-        "image_required": [],
-        "question": "Is there any cabinet facing the window?",
+        "image_required": ["image1045.png", "image1046.png"],
+        "question": "Is the window opposite to the cabinet at the corner?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 27
@@ -1995,9 +2000,9 @@
             "image1046.png",
             "image1047.png"
         ],
-        "image_required": [],
-        "question": "Which side are the two cabinets by the wall on in relation to the wooden desk?",
-        "answer": "Right.",
+        "image_required": ["image1044.png", "image1045.png", "image1046.png"],
+        "question": "Which side are the two cabinets by the wall on in relation to the wooden desk when sitting at the desk?",
+        "answer": "Right side.",
         "question_type": "Spatial Reasoning",
         "image_group": 27
     },
@@ -2009,8 +2014,8 @@
             "image1046.png",
             "image1047.png"
         ],
-        "image_required": [],
-        "question": "Are the the two cabinets by the wall and the wooden desk of the same texture?",
+        "image_required": ["image1044.png", "image1047.png"],
+        "question": "Are the the two cabinets by the wall and the wooden desk of the same color?",
         "answer": "No.",
         "question_type": "Object Comparison",
         "image_group": 27
@@ -2023,9 +2028,9 @@
             "image1046.png",
             "image1047.png"
         ],
-        "image_required": [],
-        "question": "Is the cane basket in front of the bed or on the side of it?",
-        "answer": "On the side.",
+        "image_required": ["image1045.png", "image1047.png"],
+        "question": "Where is the cane basket between two cabinets in relation to the bed when lying on the bed?",
+        "answer": "On the right side.",
         "question_type": "Spatial Reasoning",
         "image_group": 27
     },
@@ -2037,7 +2042,7 @@
             "image1064.png",
             "image1065.png"
         ],
-        "image_required": [],
+        "image_required": ["image1062.png", "image1063.png"],
         "question": "How many beds are there in the room?",
         "answer": "2.",
         "question_type": "Joint Counting",
@@ -2049,10 +2054,10 @@
             "image1062.png",
             "image1063.png",
             "image1064.png",
-            "image1065.png"
+            "image1063.png"
         ],
-        "image_required": [],
-        "question": "Is the white wardrobe in front of a bed or on its right side?",
+        "image_required": ["image1063.png", "image1063.png"],
+        "question": "Is the white wardrobe in front of the bed or on its right side?",
         "answer": "In front of.",
         "question_type": "Spatial Reasoning",
         "image_group": 28
@@ -2065,9 +2070,9 @@
             "image1064.png",
             "image1065.png"
         ],
-        "image_required": [],
-        "question": "Is there a cabinet facing the beds?",
-        "answer": "Yes.",
+        "image_required": ["image1063.png", "image1064.png"],
+        "question": "Where is the shelf in relation to the bed when lying on the bed?",
+        "answer": "In the front of.",
         "question_type": "Spatial Reasoning",
         "image_group": 28
     },
@@ -2079,8 +2084,8 @@
             "image1064.png",
             "image1065.png"
         ],
-        "image_required": [],
-        "question": "How many posters are hugh above the beds?",
+        "image_required": ["image1062.png", "image1063.png"],
+        "question": "How many posters are on the wall in total?",
         "answer": "2.",
         "question_type": "Joint Counting",
         "image_group": 28
@@ -2093,9 +2098,9 @@
             "image1064.png",
             "image1065.png"
         ],
-        "image_required": [],
-        "question": "Which bed is the the shelf closer to?",
-        "answer": "Right side.",
+        "image_required": ["image1062.png", "image1063.png", "image1064.png"],
+        "question": "Is the cabinet and the shelf facing towards each other?",
+        "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 28
     },
@@ -2107,7 +2112,7 @@
             "image1068.png",
             "image1069.png"
         ],
-        "image_required": [],
+        "image_required": ["image1066.png", "image1067.png", "image1069.png"],
         "question": "Is the painting near the bed opposite to the white wardrobe?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -2121,10 +2126,10 @@
             "image1068.png",
             "image1069.png"
         ],
-        "image_required": [],
-        "question": "How many chairs are there in the room?",
-        "answer": "1.",
-        "question_type": "Joint Counting",
+        "image_required": ["image1066.png", "image1069.png"],
+        "question": "Is the window opposite to the white wardrobe?",
+        "answer": "No.",
+        "question_type": "Spatial Reasoning",
         "image_group": 29
     },
     {
@@ -2135,9 +2140,9 @@
             "image1068.png",
             "image1069.png"
         ],
-        "image_required": [],
-        "question": "Which side is the plastic bag on in relation to the painting?",
-        "answer": "Right.",
+        "image_required": ["image1066.png", "image1067.png", "image1069.png"],
+        "question": "Is the mirror opposite to the white wardrobe??",
+        "answer": "Yes.",
         "question_type": "Spatial Reasoning",
         "image_group": 29
     },
@@ -2149,8 +2154,8 @@
             "image1068.png",
             "image1069.png"
         ],
-        "image_required": [],
-        "question": "Which side is the bedside table on in relation to the mirror?",
+        "image_required": ["image1066.png", "image1067.png"],
+        "question": "Which side is the bedside table below the window on in relation to the mirror?",
         "answer": "Right.",
         "question_type": "Spatial Reasoning",
         "image_group": 29
@@ -2163,8 +2168,8 @@
             "image1068.png",
             "image1069.png"
         ],
-        "image_required": [],
-        "question": "Which side is the window on in relation to the white wardrobe?",
+        "image_required": ["image1067.png", "image1068.png", "image1069.png"],
+        "question": "Is the bed behind the white chair?",
         "answer": "Left.",
         "question_type": "Spatial Reasoning",
         "image_group": 29
@@ -2177,8 +2182,8 @@
             "image1108.png",
             "image1109.png"
         ],
-        "image_required": [],
-        "question": "Where is the TV in relation to the bed?",
+        "image_required": ["image1107.png", "image1108.png"],
+        "question": "Where is the TV in relation to the bed when lying on the bed?",
         "answer": "In front of.",
         "question_type": "Spatial Reasoning",
         "image_group": 30
@@ -2191,9 +2196,9 @@
             "image1108.png",
             "image1109.png"
         ],
-        "image_required": [],
-        "question": "Where is the window in relation to the wooden chair?",
-        "answer": "In front of.",
+        "image_required": ["image1106.png", "image1107.png"],
+        "question": "Which side is the window on when sitting on the wooden chair?",
+        "answer": "In the front.",
         "question_type": "Spatial Reasoning",
         "image_group": 30
     },
@@ -2205,7 +2210,7 @@
             "image1108.png",
             "image1109.png"
         ],
-        "image_required": [],
+        "image_required": ["image1106.png", "image1107.png"],
         "question": "Are the doors on the left side or right side or both side of the bed?",
         "answer": "Both side.",
         "question_type": "Spatial Reasoning",
@@ -2219,8 +2224,8 @@
             "image1108.png",
             "image1109.png"
         ],
-        "image_required": [],
-        "question": "Where is the wooden chair in relation to the TV if facing the TV?",
+        "image_required": ["image1106.png", "image1107.png", "image1108.png"],
+        "question": "Where is the wooden chair in relation to the TV when facing the TV?",
         "answer": "Right side.",
         "question_type": "Spatial Reasoning",
         "image_group": 30
@@ -2233,9 +2238,9 @@
             "image1108.png",
             "image1109.png"
         ],
-        "image_required": [],
-        "question": "Is the sofa on the front left of or the front right of the wooden chair?",
-        "answer": "Front right.",
+        "image_required": ["image1107.png", "image1108.png"],
+        "question": "Is the sofa on the front left or the front right of the bed when lying on the bed",
+        "answer": "Front left.",
         "question_type": "Spatial Reasoning",
         "image_group": 30
     }
