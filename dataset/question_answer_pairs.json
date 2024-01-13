@@ -978,7 +978,7 @@
             "image770.png",
             "image771.png"
         ],
-        "image_required": [],
+        "image_required": ["image769.png", "image770.png", "image771.png"],
         "question": "Is the sink opposite to the refrigerator?",
         "answer": "Yes.",
         "question_type": "Spatial Reasoning",
@@ -1123,7 +1123,7 @@
             "image792.png",
             "image793.png"
         ],
-        "image_required": ["image788.png", "image789.png"],
+        "image_required": ["image788.png", "image790.png"],
         "question": "How many doorless passage are there in the kitchen?",
         "answer": "2.",
         "question_type": "Joint Counting",
@@ -1663,8 +1663,8 @@
             "image934.png",
             "image935.png"
         ],
-        "image_required": [],
-        "question": "Where is the cardboard box by the bed in relation to the sofa when sitting on the sofa?",
+        "image_required": ["image932.png", "image933.png", "image934.png"],
+        "question": "Where is the cardboard box by the bed in relation to the blue sofa when sitting on the sofa?",
         "answer": "Front left.",
         "question_type": "Spatial Reasoning",
         "image_group": 22
