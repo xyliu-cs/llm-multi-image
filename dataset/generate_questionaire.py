@@ -40,7 +40,7 @@ with open(file_path, 'r') as file:
     data = json.load(file)
 
 # Markdown content
-markdown_content = "# Question-Answer Pairs with Images\n\n"
+markdown_content = "# Multi-image Reasoning Questions\n\n"
 
 # Process each item in the JSON
 for item in data:
@@ -57,7 +57,7 @@ for item in data:
     # Add to markdown
     markdown_content += f"## Question {item['question_id']}\n"
     markdown_content += f"**Question:** {question}\n\n"
-    markdown_content += f"![Image Grid](./{grid_image_path})\n\n"
+    markdown_content += f"![Image Grid](./images/{grid_image_path})\n\n"
 
 
 # Save the markdown content to a file
@@ -65,7 +65,7 @@ markdown_file_path = './questionaire.md'
 with open(markdown_file_path, 'w') as md_file:
     md_file.write(markdown_content)
 
-# # Convert markdown to HTML (optional, if needed)
+# Convert markdown to HTML (optional, if needed)
 html = markdown2.markdown(markdown_content)
 html_file_path = './questionaire.html'
 with open(html_file_path, 'w') as html_file:
