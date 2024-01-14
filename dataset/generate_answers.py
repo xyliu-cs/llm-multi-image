@@ -7,17 +7,17 @@ OPENAI_API_TOKEN = ""  #  OpenAI API token here
 os.environ["OPENAI_API_KEY"] = OPENAI_API_TOKEN
 
 proxies = {
-    "http": "http://127.0.0.1:7890",
-    "https": "http://127.0.0.1:7890",
+    "http": "http://172.31.64.1:7890",
+    "https": "http://172.31.64.1:7890",
 }
 
 # Path to the image files
-base_folder = './pilot_30'
+image_folder = '/home/liu/images'
 output_file_path = 'gpt_answers.json'
 qa_pairs = 'question_answer_pairs.json'
 api_key = os.getenv('OPENAI_API_KEY')
 with open('prompt.txt', 'r') as f:
-    base_prompt = f.readline()
+    base_prompt = f.read()   # control the answer format, not few shots
 
 
 # Function to encode the image
@@ -30,8 +30,11 @@ json_output = []
 with open(qa_pairs, 'r') as file:
     data = json.load(file)
 
+    # Calculate the length of 1/5 of the data
+    first_batch = len(data) // 5
+
     # go through each question
-    for item_idx in range(48, 49):
+    for item_idx in range(first_batch*4, first_batch*5):
         user_content = []
         item = data[item_idx]
 
@@ -39,11 +42,12 @@ with open(qa_pairs, 'r') as file:
         question = item['question']
         question_id = item['question_id']
         question_type = item['question_type']
-        user_answer = item['answer']
+        base_answer = item['answer']
+        annotator_1 = item['user1_answer']
+
 
         # append base64 images 
-        image_group_folder = f"{base_folder}/{image_group:02d}"
-        full_image_path_set = [f"{image_group_folder}/{image}" for image in item['image_set']]
+        full_image_path_set = [f"{image_folder}/{image}" for image in item['image_required']]
         # print(len(full_image_path_set))
         for image in full_image_path_set:
             b64_img = encode_image(image)
@@ -93,9 +97,11 @@ with open(qa_pairs, 'r') as file:
             "question": question,
             "question_type": question_type,
             "image_group": image_group,
-            "huaman_answer": user_answer,
+            "base_answer": base_answer,
+            "annotator_1": annotator_1,
             "gpt-short-ans": short_answer,
-            "gpt-long-ans": long_answer
+            "correctness": 0,
+            "gpt-long-ans": long_answer,
         }
 
         # Open the output file in append mode and write the entry
